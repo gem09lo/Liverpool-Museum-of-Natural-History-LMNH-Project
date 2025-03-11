@@ -1,4 +1,4 @@
-# PMuseum Visitors Feedback Data Engineering Project
+# Museum Visitors Feedback Data Engineering Project
 
 ##  Overview 
 The Liverpool Museum of Natural History (LMNH) has undertaken an initiative to collect real-time feedback from its visitors through "Smiley Face Survey Kiosks" placed at exhibition exits. These kiosks allow visitors to rate their experience on a scale of five points (from 😡 to 😀) and include additional options like requesting assistance or reporting emergencies. The goal of this project was to address the museum's previous challenges of manual feedback collection and a lack of actionable insights.
