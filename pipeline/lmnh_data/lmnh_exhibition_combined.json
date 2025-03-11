@@ -1,0 +1,50 @@
+[
+    {
+        "EXHIBITION_NAME": "Adaptation",
+        "EXHIBITION_ID": "EXH_01",
+        "FLOOR": "Vault",
+        "DEPARTMENT": "Entomology",
+        "START_DATE": "01/07/19",
+        "DESCRIPTION": "How insect evolution has kept pace with an industrialised world"
+    },
+    {
+        "EXHIBITION_NAME": "Measureless to Man",
+        "EXHIBITION_ID": "EXH_00",
+        "FLOOR": "1",
+        "DEPARTMENT": "Geology",
+        "START_DATE": "23/08/21",
+        "DESCRIPTION": "An immersive 3D experience: delve deep into a previously-inaccessible cave system."
+    },
+    {
+        "EXHIBITION_NAME": "Thunder Lizards",
+        "EXHIBITION_ID": "EXH_05",
+        "FLOOR": "1",
+        "DEPARTMENT": "Paleontology",
+        "START_DATE": "01/02/23",
+        "DESCRIPTION": "How new research is making scientists rethink what dinosaurs really looked like."
+    },
+    {
+        "EXHIBITION_NAME": "The Crenshaw Collection",
+        "EXHIBITION_ID": "EXH_02",
+        "FLOOR": "2",
+        "DEPARTMENT": "Zoology",
+        "START_DATE": "03/03/21",
+        "DESCRIPTION": "An exhibition of 18th Century watercolours, mostly focused on South American wildlife."
+    },
+    {
+        "EXHIBITION_NAME": "Our Polluted World",
+        "EXHIBITION_ID": "EXH_04",
+        "FLOOR": "3",
+        "DEPARTMENT": "Ecology",
+        "START_DATE": "12/05/21",
+        "DESCRIPTION": "A hard-hitting exploration of humanity's impact on the environment."
+    },
+    {
+        "EXHIBITION_NAME": "Cetacean Sensations",
+        "EXHIBITION_ID": "EXH_03",
+        "FLOOR": "1",
+        "DEPARTMENT": "Zoology",
+        "START_DATE": "01/07/19",
+        "DESCRIPTION": "Whales: from ancient myth to critically endangered."
+    }
+]

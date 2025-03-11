@@ -1,0 +1,2304 @@
+2024-10-22 20:27 - INFO - Configuring consumer
+2024-10-22 20:27 - INFO - Connecting To Database
+2024-10-22 20:27 - INFO - Connected to postgres
+2024-10-22 20:27 - INFO - Message 1: {"at": "2024-10-21T09:21:24.254719+01:00", "site": "5", "val": 4}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 2: {"at": "2024-10-21T09:21:26.255038+01:00", "site": "3", "val": 2}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - WARNING - Invalid Message 3: Rating must be between -1 and 4 - {"at": "2024-10-21T09:21:31.255411+01:00", "site": "1", "val": 6}
+2024-10-22 20:27 - INFO - Message 4: {"at": "2024-10-21T09:21:34.256320+01:00", "site": "5", "val": 2}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 5: {"at": "2024-10-21T09:21:39.256652+01:00", "site": "0", "val": 3}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 6: {"at": "2024-10-21T09:21:45.256976+01:00", "site": "2", "val": 1}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 7: {"at": "2024-10-21T09:21:51.257389+01:00", "site": "1", "val": 4}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 8: {"at": "2024-10-21T09:21:55.257739+01:00", "site": "3", "val": 4}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 9: {"at": "2024-10-21T09:22:01.258365+01:00", "site": "0", "val": 1}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 10: {"at": "2024-10-21T09:22:05.258680+01:00", "site": "5", "val": 0}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 11: {"at": "2024-10-21T09:22:08.258977+01:00", "site": "4", "val": 0}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - WARNING - Invalid Message 12: Missing key: 'val - {"at": "2024-10-21T09:22:09.259294+01:00", "site": "2"}
+2024-10-22 20:27 - INFO - Message 13: {"at": "2024-10-21T09:22:10.259675+01:00", "site": "5", "val": 3}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 14: {"at": "2024-10-21T09:22:11.259987+01:00", "site": "1", "val": 2}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 15: {"at": "2024-10-21T09:22:17.260285+01:00", "site": "5", "val": 4}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 16: {"at": "2024-10-21T09:22:20.260605+01:00", "site": "5", "val": 4}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 17: {"at": "2024-10-21T09:22:25.260950+01:00", "site": "0", "val": 4}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 18: {"at": "2024-10-21T09:22:29.261334+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-22 20:27 - INFO - Inserted data
+2024-10-22 20:27 - INFO - Message 19: {"at": "2024-10-21T09:22:35.261696+01:00", "site": "2", "val": -1, "type": "INF"}
+2024-10-22 20:27 - ERROR - Error with Consuming Messages: cannot convert float infinity to integer
+2024-10-22 20:27 - INFO - Closing Consumer
+2024-10-22 20:27 - INFO - Closed Consumer
+2024-10-22 20:31 - INFO - Configuring consumer
+2024-10-22 20:31 - INFO - Connecting To Database
+2024-10-22 20:31 - INFO - Connected to postgres
+2024-10-22 20:31 - INFO - Message 1: {"at": "2024-10-21T09:22:39.262015+01:00", "site": "5", "val": -1, "type": -1}
+2024-10-22 20:31 - ERROR - Error with Consuming Messages: null value in column "request_id" of relation "request_interaction" violates not-null constraint
+DETAIL:  Failing row contains (2, 6, null, 2024-10-21 08:22:39.262015+00).
+
+2024-10-22 20:31 - INFO - Closing Consumer
+2024-10-22 20:31 - INFO - Closed Consumer
+2024-10-22 20:33 - INFO - Configuring consumer
+2024-10-22 20:33 - INFO - Connecting To Database
+2024-10-22 20:33 - INFO - Connected to postgres
+2024-10-22 20:33 - WARNING - Invalid Message 1: Missing key: 'val - {"at": "2024-10-21T09:22:40.262330+01:00", "site": "5"}
+2024-10-22 20:33 - WARNING - Invalid Message 2: Missing key: 'at - {"site": "5", "val": 3}
+2024-10-22 20:33 - INFO - Message 3: {"at": "2024-10-21T09:22:43.263070+01:00", "site": "3", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 4: {"at": "2024-10-21T09:22:47.263452+01:00", "site": "0", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 5: {"at": "2024-10-21T09:22:49.264685+01:00", "site": "5", "val": 4}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 6: {"at": "2024-10-21T09:22:52.265017+01:00", "site": "1", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 7: {"at": "2024-10-21T09:22:58.265341+01:00", "site": "4", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 8: {"at": "2024-10-21T09:23:02.265730+01:00", "site": "0", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 9: {"at": "2024-10-21T09:23:06.266433+01:00", "site": "0", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 10: {"at": "2024-10-21T09:23:07.266860+01:00", "site": "5", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 11: {"at": "2024-10-21T09:23:12.267192+01:00", "site": "0", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 12: {"at": "2024-10-21T09:23:17.267532+01:00", "site": "5", "val": 4}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 13: {"at": "2024-10-21T09:23:18.270032+01:00", "site": "2", "val": -1, "type": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 14: {"at": "2024-10-21T09:23:24.270559+01:00", "site": "0", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - WARNING - Invalid Message 15: Missing key: 'val - {"at": "2024-10-21T09:23:25.271024+01:00", "site": "4"}
+2024-10-22 20:33 - WARNING - Invalid Message 16: Rating must be between -1 and 4 - {"at": "2024-10-21T09:23:26.271549+01:00", "site": "4", "val": 7}
+2024-10-22 20:33 - WARNING - Invalid Message 17: Rating must be between -1 and 4 - {"at": "2024-10-21T09:23:32.271867+01:00", "site": "4", "val": 6}
+2024-10-22 20:33 - INFO - Message 18: {"at": "2024-10-21T09:23:38.272194+01:00", "site": "0", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 19: {"at": "2024-10-21T09:23:41.272584+01:00", "site": "3", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 20: {"at": "2024-10-21T09:23:44.273335+01:00", "site": "4", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 21: {"at": "2024-10-21T09:23:48.273808+01:00", "site": "0", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 22: {"at": "2024-10-21T09:23:52.274104+01:00", "site": "5", "val": 4}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 23: {"at": "2024-10-21T09:23:54.274473+01:00", "site": "2", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 24: {"at": "2024-10-21T09:23:55.274934+01:00", "site": "2", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 25: {"at": "2024-10-21T09:24:00.275242+01:00", "site": "3", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 26: {"at": "2024-10-21T09:24:06.275660+01:00", "site": "1", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 27: {"at": "2024-10-21T09:24:08.275957+01:00", "site": "5", "val": 4}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 28: {"at": "2024-10-21T09:24:09.276273+01:00", "site": "3", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 29: {"at": "2024-10-21T09:24:13.276577+01:00", "site": "1", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 30: {"at": "2024-10-21T09:24:16.276899+01:00", "site": "4", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 31: {"at": "2024-10-21T09:24:22.277610+01:00", "site": "3", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 32: {"at": "2024-10-21T09:24:23.277987+01:00", "site": "1", "val": 4}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 33: {"at": "2024-10-21T09:24:26.278445+01:00", "site": "4", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 34: {"at": "2024-10-21T09:24:32.278804+01:00", "site": "5", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 35: {"at": "2024-10-21T09:24:33.279134+01:00", "site": "4", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 36: {"at": "2024-10-21T09:24:37.279447+01:00", "site": "0", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 37: {"at": "2024-10-21T09:24:39.279768+01:00", "site": "5", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 38: {"at": "2024-10-21T09:24:43.280140+01:00", "site": "1", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 39: {"at": "2024-10-21T09:24:47.280510+01:00", "site": "2", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - WARNING - Invalid Message 40: Missing key: 'val - {"at": "2024-10-21T09:24:53.280845+01:00", "site": "3"}
+2024-10-22 20:33 - INFO - Message 41: {"at": "2024-10-21T09:24:54.281356+01:00", "site": "2", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 42: {"at": "2024-10-21T09:24:55.281745+01:00", "site": "2", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 43: {"at": "2024-10-21T09:24:59.282124+01:00", "site": "4", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 44: {"at": "2024-10-21T09:25:01.282483+01:00", "site": "5", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 45: {"at": "2024-10-21T09:25:02.282892+01:00", "site": "1", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 46: {"at": "2024-10-21T09:25:07.283243+01:00", "site": "0", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 47: {"at": "2024-10-21T09:25:09.283937+01:00", "site": "4", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - WARNING - Invalid Message 48: Missing key: 'val - {"at": "2024-10-21T09:25:12.284283+01:00", "site": "1"}
+2024-10-22 20:33 - INFO - Message 49: {"at": "2024-10-21T09:25:16.284578+01:00", "site": "1", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 50: {"at": "2024-10-21T09:25:22.284907+01:00", "site": "3", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 51: {"at": "2024-10-21T09:25:23.285304+01:00", "site": "4", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 52: {"at": "2024-10-21T09:25:27.285705+01:00", "site": "3", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 53: {"at": "2024-10-21T09:25:31.286159+01:00", "site": "3", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 54: {"at": "2024-10-21T09:25:32.286467+01:00", "site": "4", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - WARNING - Invalid Message 55: Rating must be between -1 and 4 - {"at": "2024-10-21T09:25:34.286783+01:00", "site": "2", "val": "INF"}
+2024-10-22 20:33 - WARNING - Invalid Message 56: Rating must be between -1 and 4 - {"at": "2024-10-21T09:25:38.287104+01:00", "site": "3", "val": -2}
+2024-10-22 20:33 - INFO - Message 57: {"at": "2024-10-21T09:25:42.287471+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 58: {"at": "2024-10-21T09:25:43.287870+01:00", "site": "0", "val": 4}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 59: {"at": "2024-10-21T09:25:44.288182+01:00", "site": "1", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 60: {"at": "2024-10-21T09:25:48.288624+01:00", "site": "3", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 61: {"at": "2024-10-21T09:25:51.288966+01:00", "site": "1", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 62: {"at": "2024-10-21T09:25:56.289257+01:00", "site": "5", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 63: {"at": "2024-10-21T09:26:01.290481+01:00", "site": "0", "val": 4}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 64: {"at": "2024-10-21T09:26:06.291030+01:00", "site": "1", "val": -1, "type": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 65: {"at": "2024-10-21T09:26:11.291421+01:00", "site": "2", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 66: {"at": "2024-10-21T09:26:15.291852+01:00", "site": "4", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 67: {"at": "2024-10-21T09:26:16.292165+01:00", "site": "3", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 68: {"at": "2024-10-21T09:26:21.292468+01:00", "site": "5", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 69: {"at": "2024-10-21T09:26:27.292924+01:00", "site": "3", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 70: {"at": "2024-10-21T09:26:30.293251+01:00", "site": "1", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 71: {"at": "2024-10-21T09:26:36.293612+01:00", "site": "0", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 72: {"at": "2024-10-21T09:26:39.293991+01:00", "site": "5", "val": 4}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 73: {"at": "2024-10-21T09:26:43.294295+01:00", "site": "1", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 74: {"at": "2024-10-21T09:26:48.294623+01:00", "site": "4", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 75: {"at": "2024-10-21T09:26:49.295056+01:00", "site": "0", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - WARNING - Invalid Message 76: Invalid Exhibition Site - {"at": "2024-10-21T09:26:50.295428+01:00", "site": "INF", "val": 4}
+2024-10-22 20:33 - INFO - Message 77: {"at": "2024-10-21T09:26:56.295767+01:00", "site": "4", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 78: {"at": "2024-10-21T09:26:57.296075+01:00", "site": "5", "val": 4}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 79: {"at": "2024-10-21T09:27:01.296407+01:00", "site": "2", "val": -1, "type": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 80: {"at": "2024-10-21T09:27:02.296728+01:00", "site": "4", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 81: {"at": "2024-10-21T09:27:08.297137+01:00", "site": "1", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 82: {"at": "2024-10-21T09:27:14.297540+01:00", "site": "4", "val": 0}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 83: {"at": "2024-10-21T09:27:17.297926+01:00", "site": "2", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 84: {"at": "2024-10-21T09:27:22.298240+01:00", "site": "4", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 85: {"at": "2024-10-21T09:27:27.298630+01:00", "site": "1", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 86: {"at": "2024-10-21T09:27:30.298955+01:00", "site": "4", "val": 2}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 87: {"at": "2024-10-21T09:27:31.299293+01:00", "site": "3", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - WARNING - Invalid Message 88: Rating must be between -1 and 4 - {"at": "2024-10-21T09:27:32.299692+01:00", "site": "5", "val": "ERR"}
+2024-10-22 20:33 - INFO - Message 89: {"at": "2024-10-21T09:27:36.300015+01:00", "site": "1", "val": 3}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 90: {"at": "2024-10-21T09:27:39.300366+01:00", "site": "2", "val": 1}
+2024-10-22 20:33 - INFO - Inserted data
+2024-10-22 20:33 - INFO - Message 91: {"at": "2024-10-21T09:27:40.300714+01:00", "site": "1", "val": -1, "type": 3}
+2024-10-22 20:33 - ERROR - Error with Consuming Messages: null value in column "request_id" of relation "request_interaction" violates not-null constraint
+DETAIL:  Failing row contains (7, 2, null, 2024-10-21 08:27:40.300714+00).
+
+2024-10-22 20:33 - INFO - Closing Consumer
+2024-10-22 20:33 - INFO - Closed Consumer
+2024-10-22 21:26 - INFO - Configuring consumer
+2024-10-22 21:26 - INFO - Connecting To Database
+2024-10-22 21:26 - INFO - Connected to postgres
+2024-10-22 21:26 - INFO - Message 1: {"at": "2024-10-21T09:27:43.301067+01:00", "site": "4", "val": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 2: {"at": "2024-10-21T09:27:48.301541+01:00", "site": "3", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 3: {"at": "2024-10-21T09:27:52.301879+01:00", "site": "2", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 4: {"at": "2024-10-21T09:27:55.302213+01:00", "site": "4", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 5: {"at": "2024-10-21T09:28:00.302744+01:00", "site": "4", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 6: {"at": "2024-10-21T09:28:06.303098+01:00", "site": "5", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 7: {"at": "2024-10-21T09:28:09.303666+01:00", "site": "3", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 8: {"at": "2024-10-21T09:28:10.304170+01:00", "site": "5", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 9: {"at": "2024-10-21T09:28:11.305074+01:00", "site": "0", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 10: {"at": "2024-10-21T09:28:12.305479+01:00", "site": "4", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 11: {"at": "2024-10-21T09:28:16.305866+01:00", "site": "4", "val": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 12: {"at": "2024-10-21T09:28:18.306341+01:00", "site": "4", "val": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 13: {"at": "2024-10-21T09:28:21.306654+01:00", "site": "4", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 14: {"at": "2024-10-21T09:28:26.306968+01:00", "site": "5", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 15: {"at": "2024-10-21T09:28:31.307635+01:00", "site": "3", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 16: {"at": "2024-10-21T09:28:34.308356+01:00", "site": "0", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 17: {"at": "2024-10-21T09:28:39.308680+01:00", "site": "2", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 18: {"at": "2024-10-21T09:28:45.309002+01:00", "site": "0", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 19: {"at": "2024-10-21T09:28:51.309438+01:00", "site": "2", "val": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 20: {"at": "2024-10-21T09:28:54.309760+01:00", "site": "4", "val": 4}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - WARNING - Invalid Message 21: Missing key: 'val - {"at": "2024-10-21T09:28:56.310126+01:00", "site": "1"}
+2024-10-22 21:26 - WARNING - Invalid Message 22: Invalid Exhibition Site - {"at": "2024-10-21T09:28:57.310471+01:00", "site": "INF", "val": 2}
+2024-10-22 21:26 - INFO - Message 23: {"at": "2024-10-21T09:28:58.310807+01:00", "site": "5", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 24: {"at": "2024-10-21T09:29:01.311448+01:00", "site": "4", "val": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 25: {"at": "2024-10-21T09:29:06.312077+01:00", "site": "4", "val": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 26: {"at": "2024-10-21T09:29:09.312485+01:00", "site": "2", "val": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 27: {"at": "2024-10-21T09:29:15.312888+01:00", "site": "4", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 28: {"at": "2024-10-21T09:29:16.313298+01:00", "site": "4", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 29: {"at": "2024-10-21T09:29:17.313619+01:00", "site": "5", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 30: {"at": "2024-10-21T09:29:20.313993+01:00", "site": "1", "val": 4}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 31: {"at": "2024-10-21T09:29:21.314289+01:00", "site": "0", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 32: {"at": "2024-10-21T09:29:27.314592+01:00", "site": "4", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 33: {"at": "2024-10-21T09:29:31.315005+01:00", "site": "1", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 34: {"at": "2024-10-21T09:29:33.315402+01:00", "site": "2", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - WARNING - Invalid Message 35: Rating must be between -1 and 4 - {"at": "2024-10-21T09:29:37.315754+01:00", "site": "5", "val": -2}
+2024-10-22 21:26 - INFO - Message 36: {"at": "2024-10-21T09:29:40.316079+01:00", "site": "5", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 37: {"at": "2024-10-21T09:29:41.316633+01:00", "site": "1", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 38: {"at": "2024-10-21T09:29:45.316927+01:00", "site": "4", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 39: {"at": "2024-10-21T09:29:47.317222+01:00", "site": "0", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - WARNING - Invalid Message 40: Rating must be between -1 and 4 - {"at": "2024-10-21T09:29:51.317541+01:00", "site": "2", "val": "INF"}
+2024-10-22 21:26 - INFO - Message 41: {"at": "2024-10-21T09:29:56.317944+01:00", "site": "2", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 42: {"at": "2024-10-21T09:30:00.318274+01:00", "site": "1", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 43: {"at": "2024-10-21T09:30:01.318621+01:00", "site": "4", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 44: {"at": "2024-10-21T09:30:07.318954+01:00", "site": "5", "val": 4}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 45: {"at": "2024-10-21T09:30:11.319286+01:00", "site": "5", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 46: {"at": "2024-10-21T09:30:13.319728+01:00", "site": "4", "val": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 47: {"at": "2024-10-21T09:30:17.320008+01:00", "site": "1", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 48: {"at": "2024-10-21T09:30:23.320319+01:00", "site": "0", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 49: {"at": "2024-10-21T09:30:26.320682+01:00", "site": "1", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 50: {"at": "2024-10-21T09:30:32.321106+01:00", "site": "2", "val": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - WARNING - Invalid Message 51: Invalid Exhibition Site - {"at": "2024-10-21T09:30:34.321425+01:00", "site": "10", "val": 0}
+2024-10-22 21:26 - INFO - Message 52: {"at": "2024-10-21T09:30:35.321846+01:00", "site": "5", "val": 4}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - WARNING - Invalid Message 53: Rating must be between -1 and 4 - {"at": "2024-10-21T09:30:39.322137+01:00", "site": "5", "val": -2}
+2024-10-22 21:26 - WARNING - Invalid Message 54: Invalid Exhibition Site - {"at": "2024-10-21T09:30:41.322443+01:00", "site": "9", "val": 1}
+2024-10-22 21:26 - INFO - Message 55: {"at": "2024-10-21T09:30:45.322800+01:00", "site": "0", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 56: {"at": "2024-10-21T09:30:47.323229+01:00", "site": "2", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 57: {"at": "2024-10-21T09:30:53.323593+01:00", "site": "4", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - WARNING - Invalid Message 58: Invalid Exhibition Site - {"at": "2024-10-21T09:30:54.324008+01:00", "site": "11", "val": 3}
+2024-10-22 21:26 - INFO - Message 59: {"at": "2024-10-21T09:30:56.324363+01:00", "site": "2", "val": -1, "type": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 60: {"at": "2024-10-21T09:31:02.324710+01:00", "site": "3", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 61: {"at": "2024-10-21T09:31:08.325036+01:00", "site": "5", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - WARNING - Invalid Message 62: Missing key: 'site - {"at": "2024-10-21T09:31:11.325531+01:00", "val": 2}
+2024-10-22 21:26 - INFO - Message 63: {"at": "2024-10-21T09:31:12.326169+01:00", "site": "4", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 64: {"at": "2024-10-21T09:31:14.326692+01:00", "site": "0", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - WARNING - Invalid Message 65: Missing key: 'val - {"at": "2024-10-21T09:31:15.327041+01:00", "site": "5"}
+2024-10-22 21:26 - INFO - Message 66: {"at": "2024-10-21T09:31:17.327359+01:00", "site": "0", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 67: {"at": "2024-10-21T09:31:19.327655+01:00", "site": "2", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 68: {"at": "2024-10-21T09:31:25.327969+01:00", "site": "2", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 69: {"at": "2024-10-21T09:31:26.328286+01:00", "site": "1", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 70: {"at": "2024-10-21T09:31:30.328623+01:00", "site": "0", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 71: {"at": "2024-10-21T09:31:31.329228+01:00", "site": "2", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 72: {"at": "2024-10-21T09:31:34.329844+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 73: {"at": "2024-10-21T09:31:35.331997+01:00", "site": "2", "val": 3}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - WARNING - Invalid Message 74: Missing key: 'at - {"site": "2", "val": -1, "type": 0}
+2024-10-22 21:26 - INFO - Message 75: {"at": "2024-10-21T09:31:41.332665+01:00", "site": "4", "val": 2}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 76: {"at": "2024-10-21T09:31:45.333252+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 77: {"at": "2024-10-21T09:31:50.333570+01:00", "site": "1", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 78: {"at": "2024-10-21T09:31:53.334971+01:00", "site": "0", "val": 1}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 79: {"at": "2024-10-21T09:31:57.335534+01:00", "site": "1", "val": 4}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 80: {"at": "2024-10-21T09:32:00.335884+01:00", "site": "4", "val": -1, "type": 0}
+2024-10-22 21:26 - INFO - Inserted data
+2024-10-22 21:26 - INFO - Message 81: {"at": "2024-10-21T09:32:03.336299+01:00", "site": "4", "val": -1, "type": "INF"}
+2024-10-22 21:26 - ERROR - Error with Consuming Messages: cannot convert float infinity to integer
+2024-10-22 21:26 - INFO - Closing Consumer
+2024-10-22 21:26 - INFO - Closed Consumer
+2024-10-23 11:34 - INFO - Configuring consumer
+2024-10-23 11:34 - INFO - Connecting To Database
+2024-10-23 11:34 - INFO - Connected to postgres
+2024-10-23 11:34 - INFO - Message 1: {"at": "2024-10-21T09:32:05.336718+01:00", "site": "4", "val": 0}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - INFO - Message 2: {"at": "2024-10-21T09:32:08.337028+01:00", "site": "0", "val": 0}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - WARNING - Invalid Message 3: Invalid Exhibition Site - {"at": "2024-10-21T09:32:12.337376+01:00", "site": "12", "val": 1}
+2024-10-23 11:34 - INFO - Message 4: {"at": "2024-10-21T09:32:18.337745+01:00", "site": "0", "val": 4}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - INFO - Message 5: {"at": "2024-10-21T09:32:21.338071+01:00", "site": "1", "val": 1}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - INFO - Message 6: {"at": "2024-10-21T09:32:25.338375+01:00", "site": "4", "val": 0}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - INFO - Message 7: {"at": "2024-10-21T09:32:30.338895+01:00", "site": "4", "val": 2}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - INFO - Message 8: {"at": "2024-10-21T09:32:35.339944+01:00", "site": "2", "val": 1}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - INFO - Message 9: {"at": "2024-10-21T09:32:36.340250+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - INFO - Message 10: {"at": "2024-10-21T09:32:39.340658+01:00", "site": "5", "val": 1}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - INFO - Message 11: {"at": "2024-10-21T09:32:42.341128+01:00", "site": "1", "val": 3}
+2024-10-23 11:34 - INFO - Inserted data
+2024-10-23 11:34 - INFO - Message 12: {"at": "2024-10-21T09:32:48.341508+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 13: {"at": "2024-10-21T09:32:54.341870+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 14: {"at": "2024-10-21T09:32:56.342270+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 15: Missing key: 'at - {"site": "2", "val": 1}
+2024-10-23 11:35 - WARNING - Invalid Message 16: Invalid Exhibition Site - {"at": "2024-10-21T09:33:04.342955+01:00", "site": "9", "val": 1}
+2024-10-23 11:35 - INFO - Message 17: {"at": "2024-10-21T09:33:05.343379+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 18: {"at": "2024-10-21T09:33:06.344285+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 19: {"at": "2024-10-21T09:33:11.344661+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 20: {"at": "2024-10-21T09:33:13.345004+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 21: {"at": "2024-10-21T09:33:19.346167+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 22: {"at": "2024-10-21T09:33:23.346556+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 23: {"at": "2024-10-21T09:33:26.346853+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 24: {"at": "2024-10-21T09:33:30.347228+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 25: {"at": "2024-10-21T09:33:33.349399+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 26: Invalid Exhibition Site - {"at": "2024-10-21T09:33:36.349850+01:00", "site": "7", "val": 3}
+2024-10-23 11:35 - INFO - Message 27: {"at": "2024-10-21T09:33:41.350288+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 28: {"at": "2024-10-21T09:33:44.350727+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 29: {"at": "2024-10-21T09:33:46.351138+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 30: Request must be 0 or 1 - {"at": "2024-10-21T09:33:52.353320+01:00", "site": "1", "val": -1, "type": 4}
+2024-10-23 11:35 - INFO - Message 31: {"at": "2024-10-21T09:33:58.354147+01:00", "site": "1", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 32: {"at": "2024-10-21T09:34:00.354565+01:00", "site": "2", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 33: {"at": "2024-10-21T09:34:06.354966+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 34: Invalid Exhibition Site - {"at": "2024-10-21T09:34:11.355425+01:00", "site": "None", "val": 4}
+2024-10-23 11:35 - WARNING - Invalid Message 35: Invalid Exhibition Site - {"at": "2024-10-21T09:34:13.355768+01:00", "site": "8", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Message 36: {"at": "2024-10-21T09:34:18.356143+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 37: {"at": "2024-10-21T09:34:24.356511+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 38: {"at": "2024-10-21T09:34:30.357289+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 39: {"at": "2024-10-21T09:34:36.357595+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 40: {"at": "2024-10-21T09:34:40.358091+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 41: {"at": "2024-10-21T09:34:42.358468+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 42: {"at": "2024-10-21T09:34:48.358787+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 43: {"at": "2024-10-21T09:34:53.359109+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 44: Invalid Exhibition Site - {"at": "2024-10-21T09:34:54.359535+01:00", "site": "9", "val": 2}
+2024-10-23 11:35 - INFO - Message 45: {"at": "2024-10-21T09:35:00.359970+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 46: {"at": "2024-10-21T09:35:01.360291+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 47: {"at": "2024-10-21T09:35:03.360617+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 48: {"at": "2024-10-21T09:35:08.360950+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 49: {"at": "2024-10-21T09:35:09.361276+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 50: Invalid Exhibition Site - {"at": "2024-10-21T09:35:15.361623+01:00", "site": "INF", "val": 4}
+2024-10-23 11:35 - WARNING - Invalid Message 51: Request must be 0 or 1 - {"at": "2024-10-21T09:35:18.361983+01:00", "site": "5", "val": -1, "type": "INF"}
+2024-10-23 11:35 - INFO - Message 52: {"at": "2024-10-21T09:35:20.362270+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 53: {"at": "2024-10-21T09:35:23.362650+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 54: Request must be 0 or 1 - {"at": "2024-10-21T09:35:27.363030+01:00", "site": "1", "val": -1, "type": 3}
+2024-10-23 11:35 - INFO - Message 55: {"at": "2024-10-21T09:35:31.363560+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 56: {"at": "2024-10-21T09:35:34.363948+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 57: {"at": "2024-10-21T09:35:35.364294+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 58: {"at": "2024-10-21T09:35:41.364751+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 59: {"at": "2024-10-21T09:35:45.365119+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 60: {"at": "2024-10-21T09:35:47.365435+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 61: {"at": "2024-10-21T09:35:50.365744+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 62: {"at": "2024-10-21T09:35:55.366258+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 63: {"at": "2024-10-21T09:36:01.366580+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 64: {"at": "2024-10-21T09:36:03.367076+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 65: {"at": "2024-10-21T09:36:06.367822+01:00", "site": "2", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 66: {"at": "2024-10-21T09:36:11.368122+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 67: Request must be 0 or 1 - {"at": "2024-10-21T09:36:17.368428+01:00", "site": "1", "val": -1, "type": "ERR"}
+2024-10-23 11:35 - WARNING - Invalid Message 68: Rating must be between -1 and 4 - {"at": "2024-10-21T09:36:19.368740+01:00", "site": "0", "val": null}
+2024-10-23 11:35 - INFO - Message 69: {"at": "2024-10-21T09:36:24.369178+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 70: {"at": "2024-10-21T09:36:28.369494+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 71: {"at": "2024-10-21T09:36:34.370095+01:00", "site": "0", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 72: {"at": "2024-10-21T09:36:39.370734+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 73: {"at": "2024-10-21T09:36:41.371057+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 74: {"at": "2024-10-21T09:36:45.371435+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 75: {"at": "2024-10-21T09:36:48.371760+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 76: {"at": "2024-10-21T09:36:53.372071+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 77: {"at": "2024-10-21T09:36:57.372560+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 78: {"at": "2024-10-21T09:37:00.372898+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 79: {"at": "2024-10-21T09:37:05.373215+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 80: {"at": "2024-10-21T09:37:11.373527+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 81: {"at": "2024-10-21T09:37:15.373929+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 82: Invalid Exhibition Site - {"at": "2024-10-21T09:37:16.374455+01:00", "site": "11", "val": 2}
+2024-10-23 11:35 - INFO - Message 83: {"at": "2024-10-21T09:37:18.375010+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 84: {"at": "2024-10-21T09:37:21.375447+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 85: {"at": "2024-10-21T09:37:26.375744+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 86: Missing key: 'at - {"site": "4", "val": 1}
+2024-10-23 11:35 - WARNING - Invalid Message 87: Invalid Exhibition Site - {"at": "2024-10-21T09:37:33.376452+01:00", "site": "8", "val": 1}
+2024-10-23 11:35 - INFO - Message 88: {"at": "2024-10-21T09:37:38.376797+01:00", "site": "2", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 89: {"at": "2024-10-21T09:37:44.377460+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 90: Invalid Exhibition Site - {"at": "2024-10-21T09:37:48.377819+01:00", "site": "9", "val": 1}
+2024-10-23 11:35 - INFO - Message 91: {"at": "2024-10-21T09:37:49.378147+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 92: {"at": "2024-10-21T09:37:53.378545+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 93: Request must be 0 or 1 - {"at": "2024-10-21T09:37:57.378911+01:00", "site": "2", "val": -1, "type": "ERR"}
+2024-10-23 11:35 - INFO - Message 94: {"at": "2024-10-21T09:38:01.379443+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 95: {"at": "2024-10-21T09:38:03.379889+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 96: {"at": "2024-10-21T09:38:09.380222+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 97: {"at": "2024-10-21T09:38:11.380533+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 98: {"at": "2024-10-21T09:38:14.383599+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 99: {"at": "2024-10-21T09:38:19.384364+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 100: Rating must be between -1 and 4 - {"at": "2024-10-21T09:38:21.384698+01:00", "site": "0", "val": 5}
+2024-10-23 11:35 - INFO - Message 101: {"at": "2024-10-21T09:38:27.385026+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 102: {"at": "2024-10-21T09:38:28.385346+01:00", "site": "0", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 103: {"at": "2024-10-21T09:38:34.385734+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 104: {"at": "2024-10-21T09:38:40.386034+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 105: {"at": "2024-10-21T09:38:43.386339+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 106: {"at": "2024-10-21T09:38:44.386686+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 107: {"at": "2024-10-21T09:38:45.387029+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 108: Request must be 0 or 1 - {"at": "2024-10-21T09:38:46.387796+01:00", "site": "0", "val": -1, "type": 2}
+2024-10-23 11:35 - INFO - Message 109: {"at": "2024-10-21T09:38:52.388069+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 110: {"at": "2024-10-21T09:38:56.388396+01:00", "site": "0", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 111: Invalid Exhibition Site - {"at": "2024-10-21T09:38:59.389229+01:00", "site": "10", "val": 3}
+2024-10-23 11:35 - INFO - Message 112: {"at": "2024-10-21T09:39:04.389601+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 113: Rating must be between -1 and 4 - {"at": "2024-10-21T09:39:05.389936+01:00", "site": "5", "val": 5}
+2024-10-23 11:35 - INFO - Message 114: {"at": "2024-10-21T09:39:07.390220+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 115: {"at": "2024-10-21T09:39:11.390499+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 116: {"at": "2024-10-21T09:39:16.390819+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 117: {"at": "2024-10-21T09:39:22.391146+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 118: {"at": "2024-10-21T09:39:27.391487+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 119: {"at": "2024-10-21T09:39:28.392883+01:00", "site": "0", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 120: {"at": "2024-10-21T09:39:33.393204+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 121: {"at": "2024-10-21T09:39:39.393526+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 122: {"at": "2024-10-21T09:39:42.393877+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 123: {"at": "2024-10-21T09:39:44.394170+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 124: {"at": "2024-10-21T09:39:49.394479+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 125: {"at": "2024-10-21T09:39:50.394994+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 126: {"at": "2024-10-21T09:39:55.395455+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 127: Rating must be between -1 and 4 - {"at": "2024-10-21T09:40:01.396224+01:00", "site": "1", "val": 8}
+2024-10-23 11:35 - INFO - Message 128: {"at": "2024-10-21T09:40:02.396725+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 129: {"at": "2024-10-21T09:40:05.397140+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 130: Invalid Exhibition Site - {"at": "2024-10-21T09:40:11.397514+01:00", "site": "6", "val": 1}
+2024-10-23 11:35 - INFO - Message 131: {"at": "2024-10-21T09:40:14.397964+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 132: {"at": "2024-10-21T09:40:16.398324+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 133: {"at": "2024-10-21T09:40:20.398640+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 134: {"at": "2024-10-21T09:40:26.402189+01:00", "site": "0", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 135: {"at": "2024-10-21T09:40:32.403328+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 136: {"at": "2024-10-21T09:40:33.403646+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 137: {"at": "2024-10-21T09:40:35.403954+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 138: {"at": "2024-10-21T09:40:37.404264+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 139: {"at": "2024-10-21T09:40:38.404589+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 140: Rating must be between -1 and 4 - {"at": "2024-10-21T09:40:42.405091+01:00", "site": "4", "val": "INF"}
+2024-10-23 11:35 - INFO - Message 141: {"at": "2024-10-21T09:40:43.405403+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 142: {"at": "2024-10-21T09:40:45.405718+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 143: {"at": "2024-10-21T09:40:49.406449+01:00", "site": "0", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 144: {"at": "2024-10-21T09:40:53.406901+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 145: {"at": "2024-10-21T09:40:55.407851+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 146: {"at": "2024-10-21T09:40:57.408224+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 147: {"at": "2024-10-21T09:41:01.408567+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 148: Request must be 0 or 1 - {"at": "2024-10-21T09:41:07.408963+01:00", "site": "0", "val": -1, "type": null}
+2024-10-23 11:35 - INFO - Message 149: {"at": "2024-10-21T09:41:10.409341+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 150: Rating must be between -1 and 4 - {"at": "2024-10-21T09:41:11.409848+01:00", "site": "2", "val": 7}
+2024-10-23 11:35 - INFO - Message 151: {"at": "2024-10-21T09:41:16.410719+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 152: Request must be 0 or 1 - {"at": "2024-10-21T09:41:22.411199+01:00", "site": "1", "val": -1, "type": null}
+2024-10-23 11:35 - INFO - Message 153: {"at": "2024-10-21T09:41:28.411532+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 154: {"at": "2024-10-21T09:41:30.411844+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 155: {"at": "2024-10-21T09:41:34.412435+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 156: {"at": "2024-10-21T09:41:35.412898+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 157: {"at": "2024-10-21T09:41:36.413494+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 158: {"at": "2024-10-21T09:41:41.413937+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 159: {"at": "2024-10-21T09:41:42.414245+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 160: {"at": "2024-10-21T09:41:45.414665+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 161: {"at": "2024-10-21T09:41:48.415109+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 162: {"at": "2024-10-21T09:41:53.415563+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 163: Request must be 0 or 1 - {"at": "2024-10-21T09:41:55.416116+01:00", "site": "5", "val": -1, "type": -1}
+2024-10-23 11:35 - INFO - Message 164: {"at": "2024-10-21T09:41:59.416523+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 165: {"at": "2024-10-21T09:42:01.416991+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 166: {"at": "2024-10-21T09:42:07.417439+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 167: Invalid Exhibition Site - {"at": "2024-10-21T09:42:11.417837+01:00", "site": "6", "val": 2}
+2024-10-23 11:35 - WARNING - Invalid Message 168: Request must be 0 or 1 - {"at": "2024-10-21T09:42:14.418690+01:00", "site": "1", "val": -1, "type": -1}
+2024-10-23 11:35 - INFO - Message 169: {"at": "2024-10-21T09:42:15.419153+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 170: {"at": "2024-10-21T09:42:16.419690+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 171: {"at": "2024-10-21T09:42:17.419980+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 172: {"at": "2024-10-21T09:42:20.420302+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 173: Request must be 0 or 1 - {"at": "2024-10-21T09:42:26.421293+01:00", "site": "3", "val": -1, "type": 2}
+2024-10-23 11:35 - INFO - Message 174: {"at": "2024-10-21T09:42:27.421822+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 175: {"at": "2024-10-21T09:42:33.422160+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 176: {"at": "2024-10-21T09:42:39.422666+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 177: {"at": "2024-10-21T09:42:43.423073+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 178: {"at": "2024-10-21T09:42:44.423699+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 179: Rating must be between -1 and 4 - {"at": "2024-10-21T09:42:50.424030+01:00", "site": "4", "val": "ERR"}
+2024-10-23 11:35 - WARNING - Invalid Message 180: Invalid Exhibition Site - {"at": "2024-10-21T09:42:52.424421+01:00", "site": "11", "val": 2}
+2024-10-23 11:35 - INFO - Message 181: {"at": "2024-10-21T09:42:55.425067+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 182: {"at": "2024-10-21T09:42:56.425344+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 183: {"at": "2024-10-21T09:42:57.425734+01:00", "site": "2", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 184: {"at": "2024-10-21T09:43:00.426076+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 185: {"at": "2024-10-21T09:43:03.426500+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 186: {"at": "2024-10-21T09:43:09.426875+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 187: {"at": "2024-10-21T09:43:10.427166+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 188: {"at": "2024-10-21T09:43:13.427544+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 189: {"at": "2024-10-21T09:43:19.427876+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 190: {"at": "2024-10-21T09:43:22.428231+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 191: {"at": "2024-10-21T09:43:23.428677+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 192: Missing key: 'at - {"site": "0", "val": 0}
+2024-10-23 11:35 - WARNING - Invalid Message 193: Rating must be between -1 and 4 - {"at": "2024-10-21T09:43:33.429649+01:00", "site": "2", "val": 8}
+2024-10-23 11:35 - INFO - Message 194: {"at": "2024-10-21T09:43:35.429947+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 195: {"at": "2024-10-21T09:43:40.430293+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 196: {"at": "2024-10-21T09:43:43.430590+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 197: {"at": "2024-10-21T09:43:48.430985+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 198: {"at": "2024-10-21T09:43:51.431326+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 199: {"at": "2024-10-21T09:43:56.431729+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 200: {"at": "2024-10-21T09:44:01.432059+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 201: {"at": "2024-10-21T09:44:05.432441+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 202: {"at": "2024-10-21T09:44:06.432742+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 203: {"at": "2024-10-21T09:44:07.433304+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 204: {"at": "2024-10-21T09:44:12.433645+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 205: {"at": "2024-10-21T09:44:13.433953+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 206: Invalid Exhibition Site - {"at": "2024-10-21T09:44:18.434263+01:00", "site": "None", "val": 0}
+2024-10-23 11:35 - INFO - Message 207: {"at": "2024-10-21T09:44:23.434600+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 208: {"at": "2024-10-21T09:44:24.434923+01:00", "site": "2", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 209: {"at": "2024-10-21T09:44:28.435548+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 210: {"at": "2024-10-21T09:44:30.435879+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 211: {"at": "2024-10-21T09:44:35.436208+01:00", "site": "2", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 212: {"at": "2024-10-21T09:44:40.436521+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 213: {"at": "2024-10-21T09:44:43.436829+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 214: {"at": "2024-10-21T09:44:46.437166+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 215: {"at": "2024-10-21T09:44:49.437479+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 216: {"at": "2024-10-21T09:44:52.438439+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 217: {"at": "2024-10-21T09:44:58.438735+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 218: Missing key: 'site - {"at": "2024-10-21T09:45:04.439653+01:00", "val": 2}
+2024-10-23 11:35 - INFO - Message 219: {"at": "2024-10-21T09:45:07.439948+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 220: {"at": "2024-10-21T09:45:13.440320+01:00", "site": "1", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 221: {"at": "2024-10-21T09:45:18.440626+01:00", "site": "1", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 222: {"at": "2024-10-21T09:45:20.440933+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 223: {"at": "2024-10-21T09:45:25.441311+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 224: {"at": "2024-10-21T09:45:28.441784+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 225: {"at": "2024-10-21T09:45:33.442190+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 226: {"at": "2024-10-21T09:45:38.442676+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 227: {"at": "2024-10-21T09:45:40.443405+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 228: {"at": "2024-10-21T09:45:44.443968+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 229: {"at": "2024-10-21T09:45:46.444260+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 230: {"at": "2024-10-21T09:45:50.444931+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 231: {"at": "2024-10-21T09:45:51.445325+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 232: {"at": "2024-10-21T09:45:52.445670+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 233: {"at": "2024-10-21T09:45:57.446041+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 234: Invalid Exhibition Site - {"at": "2024-10-21T09:45:58.446377+01:00", "site": "12", "val": 0}
+2024-10-23 11:35 - INFO - Message 235: {"at": "2024-10-21T09:46:00.446791+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 236: {"at": "2024-10-21T09:46:01.447211+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 237: {"at": "2024-10-21T09:46:04.447528+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 238: {"at": "2024-10-21T09:46:05.447831+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 239: {"at": "2024-10-21T09:46:08.448123+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 240: {"at": "2024-10-21T09:46:09.448424+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 241: {"at": "2024-10-21T09:46:15.448983+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 242: Invalid Exhibition Site - {"at": "2024-10-21T09:46:18.449311+01:00", "site": "6", "val": 1}
+2024-10-23 11:35 - INFO - Message 243: {"at": "2024-10-21T09:46:23.450287+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 244: {"at": "2024-10-21T09:46:27.451118+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 245: {"at": "2024-10-21T09:46:30.451450+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 246: Rating must be between -1 and 4 - {"at": "2024-10-21T09:46:32.451892+01:00", "site": "2", "val": -3}
+2024-10-23 11:35 - WARNING - Invalid Message 247: Missing key: 'at - {"site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Message 248: {"at": "2024-10-21T09:46:42.452661+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 249: Invalid Exhibition Site - {"at": "2024-10-21T09:46:45.452982+01:00", "site": "6", "val": 2}
+2024-10-23 11:35 - INFO - Message 250: {"at": "2024-10-21T09:46:49.453305+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 251: {"at": "2024-10-21T09:46:51.454020+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 252: {"at": "2024-10-21T09:46:55.454337+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 253: {"at": "2024-10-21T09:46:56.454633+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 254: {"at": "2024-10-21T09:46:57.454957+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 255: {"at": "2024-10-21T09:47:03.455268+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 256: Missing key: 'site - {"at": "2024-10-21T09:47:09.455969+01:00", "val": 2}
+2024-10-23 11:35 - INFO - Message 257: {"at": "2024-10-21T09:47:10.456280+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 258: {"at": "2024-10-21T09:47:15.456591+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 259: {"at": "2024-10-21T09:47:19.456919+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 260: {"at": "2024-10-21T09:47:23.457220+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 261: {"at": "2024-10-21T09:47:26.457516+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 262: {"at": "2024-10-21T09:47:29.457861+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 263: {"at": "2024-10-21T09:47:30.458162+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 264: Invalid Exhibition Site - {"at": "2024-10-21T09:47:35.458497+01:00", "site": "7", "val": 1}
+2024-10-23 11:35 - WARNING - Invalid Message 265: Rating must be between -1 and 4 - {"at": "2024-10-21T09:47:41.458853+01:00", "site": "5", "val": -3}
+2024-10-23 11:35 - INFO - Message 266: {"at": "2024-10-21T09:47:42.459153+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 267: {"at": "2024-10-21T09:47:43.459529+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 268: {"at": "2024-10-21T09:47:48.459832+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 269: {"at": "2024-10-21T09:47:49.460150+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 270: {"at": "2024-10-21T09:47:52.460481+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 271: {"at": "2024-10-21T09:47:58.460804+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 272: {"at": "2024-10-21T09:48:03.461131+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 273: {"at": "2024-10-21T09:48:05.461600+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 274: Invalid Exhibition Site - {"at": "2024-10-21T09:48:08.461997+01:00", "site": "INF", "val": 0}
+2024-10-23 11:35 - INFO - Message 275: {"at": "2024-10-21T09:48:09.462331+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 276: {"at": "2024-10-21T09:48:11.462631+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 277: Request must be 0 or 1 - {"at": "2024-10-21T09:48:13.462943+01:00", "site": "1", "val": -1, "type": null}
+2024-10-23 11:35 - INFO - Message 278: {"at": "2024-10-21T09:48:17.463364+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 279: {"at": "2024-10-21T09:48:21.463789+01:00", "site": "1", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 280: {"at": "2024-10-21T09:48:25.464226+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 281: {"at": "2024-10-21T09:48:29.464907+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 282: {"at": "2024-10-21T09:48:30.465584+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 283: {"at": "2024-10-21T09:48:35.466323+01:00", "site": "0", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 284: Request must be 0 or 1 - {"at": "2024-10-21T09:48:36.466699+01:00", "site": "5", "val": -1, "type": 3}
+2024-10-23 11:35 - INFO - Message 285: {"at": "2024-10-21T09:48:42.467185+01:00", "site": "4", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 286: {"at": "2024-10-21T09:48:48.467689+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 287: {"at": "2024-10-21T09:48:53.468169+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 288: {"at": "2024-10-21T09:48:54.468555+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 289: Rating must be between -1 and 4 - {"at": "2024-10-21T09:48:58.468943+01:00", "site": "5", "val": 7}
+2024-10-23 11:35 - INFO - Message 290: {"at": "2024-10-21T09:49:02.469283+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 291: {"at": "2024-10-21T09:49:03.469619+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 292: {"at": "2024-10-21T09:49:07.470078+01:00", "site": "0", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 293: {"at": "2024-10-21T09:49:09.470454+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 294: Missing key: 'site - {"at": "2024-10-21T09:49:13.470779+01:00", "val": 2}
+2024-10-23 11:35 - INFO - Message 295: {"at": "2024-10-21T09:49:19.471160+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 296: {"at": "2024-10-21T09:49:21.471591+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 297: {"at": "2024-10-21T09:49:23.472144+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 298: {"at": "2024-10-21T09:49:29.472491+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 299: Rating must be between -1 and 4 - {"at": "2024-10-21T09:49:32.472811+01:00", "site": "0", "val": null}
+2024-10-23 11:35 - INFO - Message 300: {"at": "2024-10-21T09:49:35.473119+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 301: {"at": "2024-10-21T09:49:40.473501+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 302: {"at": "2024-10-21T09:49:46.473994+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 303: {"at": "2024-10-21T09:49:51.475433+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 304: {"at": "2024-10-21T09:49:56.475791+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 305: {"at": "2024-10-21T09:49:59.476119+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 306: {"at": "2024-10-21T09:50:01.476447+01:00", "site": "5", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 307: {"at": "2024-10-21T09:50:04.476781+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 308: {"at": "2024-10-21T09:50:10.477189+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 309: {"at": "2024-10-21T09:50:14.477828+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 310: {"at": "2024-10-21T09:50:17.478184+01:00", "site": "4", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 311: {"at": "2024-10-21T09:50:22.478472+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 312: Request must be 0 or 1 - {"at": "2024-10-21T09:50:23.478948+01:00", "site": "5", "val": -1, "type": "ERR"}
+2024-10-23 11:35 - WARNING - Invalid Message 313: Rating must be between -1 and 4 - {"at": "2024-10-21T09:50:26.479530+01:00", "site": "2", "val": "INF"}
+2024-10-23 11:35 - INFO - Message 314: {"at": "2024-10-21T09:50:32.479875+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 315: {"at": "2024-10-21T09:50:37.480246+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 316: Missing key: 'val - {"at": "2024-10-21T09:50:43.480572+01:00", "site": "4"}
+2024-10-23 11:35 - INFO - Message 317: {"at": "2024-10-21T09:50:49.480885+01:00", "site": "1", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 318: Request must be 0 or 1 - {"at": "2024-10-21T09:50:51.481342+01:00", "site": "5", "val": -1, "type": 3}
+2024-10-23 11:35 - INFO - Message 319: {"at": "2024-10-21T09:50:57.481733+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 320: {"at": "2024-10-21T09:50:59.482052+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 321: {"at": "2024-10-21T09:51:02.482457+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 322: {"at": "2024-10-21T09:51:03.482768+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 323: {"at": "2024-10-21T09:51:05.483160+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 324: {"at": "2024-10-21T09:51:07.483512+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 325: {"at": "2024-10-21T09:51:13.483914+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 326: {"at": "2024-10-21T09:51:15.484461+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 327: {"at": "2024-10-21T09:51:20.484822+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 328: {"at": "2024-10-21T09:51:24.485270+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 329: {"at": "2024-10-21T09:51:26.485584+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 330: Rating must be between -1 and 4 - {"at": "2024-10-21T09:51:31.486035+01:00", "site": "3", "val": 7}
+2024-10-23 11:35 - INFO - Message 331: {"at": "2024-10-21T09:51:37.486330+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 332: {"at": "2024-10-21T09:51:40.486726+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 333: {"at": "2024-10-21T09:51:42.487064+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 334: Missing key: 'site - {"at": "2024-10-21T09:51:43.487389+01:00", "val": 1}
+2024-10-23 11:35 - INFO - Message 335: {"at": "2024-10-21T09:51:45.487729+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 336: {"at": "2024-10-21T09:51:48.488127+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 337: {"at": "2024-10-21T09:51:49.488533+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 338: Missing key: 'val - {"at": "2024-10-21T09:51:53.489013+01:00", "site": "5"}
+2024-10-23 11:35 - INFO - Message 339: {"at": "2024-10-21T09:51:57.489802+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 340: {"at": "2024-10-21T09:52:03.490120+01:00", "site": "0", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 341: {"at": "2024-10-21T09:52:06.490440+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 342: {"at": "2024-10-21T09:52:09.490763+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 343: {"at": "2024-10-21T09:52:13.491194+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 344: {"at": "2024-10-21T09:52:17.491657+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 345: {"at": "2024-10-21T09:52:23.492096+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 346: {"at": "2024-10-21T09:52:29.492725+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 347: {"at": "2024-10-21T09:52:31.493074+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 348: {"at": "2024-10-21T09:52:35.493437+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 349: {"at": "2024-10-21T09:52:36.493791+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 350: {"at": "2024-10-21T09:52:41.494308+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 351: Invalid Exhibition Site - {"at": "2024-10-21T09:52:46.494622+01:00", "site": "10", "val": 0}
+2024-10-23 11:35 - INFO - Message 352: {"at": "2024-10-21T09:52:47.495035+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 353: {"at": "2024-10-21T09:52:52.495375+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 354: {"at": "2024-10-21T09:52:58.495755+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 355: {"at": "2024-10-21T09:52:59.496067+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 356: Missing key: 'at - {"site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Message 357: {"at": "2024-10-21T09:53:06.496831+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 358: {"at": "2024-10-21T09:53:10.497141+01:00", "site": "1", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 359: {"at": "2024-10-21T09:53:11.497434+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 360: {"at": "2024-10-21T09:53:14.497757+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 361: {"at": "2024-10-21T09:53:20.498113+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 362: Request must be 0 or 1 - {"at": "2024-10-21T09:53:26.498536+01:00", "site": "2", "val": -1, "type": "INF"}
+2024-10-23 11:35 - INFO - Message 363: {"at": "2024-10-21T09:53:31.498914+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 364: {"at": "2024-10-21T09:53:33.499239+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 365: {"at": "2024-10-21T09:53:36.499611+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 366: {"at": "2024-10-21T09:53:42.500010+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 367: {"at": "2024-10-21T09:53:48.500316+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 368: {"at": "2024-10-21T09:53:54.500934+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 369: Request must be 0 or 1 - {"at": "2024-10-21T09:53:55.501773+01:00", "site": "1", "val": -1, "type": "INF"}
+2024-10-23 11:35 - WARNING - Invalid Message 370: Rating must be between -1 and 4 - {"at": "2024-10-21T09:53:57.502125+01:00", "site": "3", "val": 8}
+2024-10-23 11:35 - WARNING - Invalid Message 371: Request must be 0 or 1 - {"at": "2024-10-21T09:54:03.502461+01:00", "site": "5", "val": -1, "type": "ERR"}
+2024-10-23 11:35 - INFO - Message 372: {"at": "2024-10-21T09:54:08.504095+01:00", "site": "5", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 373: {"at": "2024-10-21T09:54:12.504424+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 374: {"at": "2024-10-21T09:54:17.504743+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 375: {"at": "2024-10-21T09:54:22.505050+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 376: Invalid Exhibition Site - {"at": "2024-10-21T09:54:23.505441+01:00", "site": "11", "val": 4}
+2024-10-23 11:35 - INFO - Message 377: {"at": "2024-10-21T09:54:27.505891+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 378: {"at": "2024-10-21T09:54:31.506238+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 379: {"at": "2024-10-21T09:54:33.507011+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 380: {"at": "2024-10-21T09:54:38.507656+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 381: {"at": "2024-10-21T09:54:42.507980+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 382: {"at": "2024-10-21T09:54:46.508319+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 383: {"at": "2024-10-21T09:54:47.508765+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 384: {"at": "2024-10-21T09:54:51.509214+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 385: {"at": "2024-10-21T09:54:56.509715+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 386: {"at": "2024-10-21T09:54:58.510014+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 387: {"at": "2024-10-21T09:55:02.510388+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 388: {"at": "2024-10-21T09:55:05.510913+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 389: {"at": "2024-10-21T09:55:11.511244+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 390: {"at": "2024-10-21T09:55:13.511850+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 391: Missing key: 'val - {"at": "2024-10-21T09:55:14.512218+01:00", "site": "0"}
+2024-10-23 11:35 - INFO - Message 392: {"at": "2024-10-21T09:55:15.513077+01:00", "site": "4", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 393: {"at": "2024-10-21T09:55:21.513537+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 394: {"at": "2024-10-21T09:55:22.513928+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 395: Rating must be between -1 and 4 - {"at": "2024-10-21T09:55:25.514386+01:00", "site": "3", "val": 8}
+2024-10-23 11:35 - INFO - Message 396: {"at": "2024-10-21T09:55:30.514801+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 397: {"at": "2024-10-21T09:55:32.515115+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 398: Invalid Exhibition Site - {"at": "2024-10-21T09:55:34.515674+01:00", "site": "11", "val": 2}
+2024-10-23 11:35 - INFO - Message 399: {"at": "2024-10-21T09:55:39.516080+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 400: {"at": "2024-10-21T09:55:45.517832+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 401: {"at": "2024-10-21T09:55:46.518148+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 402: {"at": "2024-10-21T09:55:51.518511+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 403: Missing key: 'at - {"site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Message 404: {"at": "2024-10-21T09:55:55.519276+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 405: {"at": "2024-10-21T09:56:00.519661+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 406: {"at": "2024-10-21T09:56:03.520064+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 407: Request must be 0 or 1 - {"at": "2024-10-21T09:56:05.520375+01:00", "site": "3", "val": -1, "type": "INF"}
+2024-10-23 11:35 - INFO - Message 408: {"at": "2024-10-21T09:56:10.520817+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 409: {"at": "2024-10-21T09:56:15.521203+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 410: {"at": "2024-10-21T09:56:17.521605+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 411: Missing key: 'at - {"site": "2", "val": 1}
+2024-10-23 11:35 - WARNING - Invalid Message 412: Missing key: 'val - {"at": "2024-10-21T09:56:26.522324+01:00", "site": "1"}
+2024-10-23 11:35 - INFO - Message 413: {"at": "2024-10-21T09:56:28.522630+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 414: {"at": "2024-10-21T09:56:29.523180+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 415: {"at": "2024-10-21T09:56:32.523602+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 416: {"at": "2024-10-21T09:56:35.523970+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 417: Missing key: 'at - {"site": "4", "val": 0}
+2024-10-23 11:35 - WARNING - Invalid Message 418: Missing key: 'val - {"at": "2024-10-21T09:56:41.524614+01:00", "site": "0"}
+2024-10-23 11:35 - INFO - Message 419: {"at": "2024-10-21T09:56:46.524957+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 420: Missing key: 'at - {"site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Message 421: {"at": "2024-10-21T09:56:52.525601+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 422: {"at": "2024-10-21T09:56:56.525920+01:00", "site": "1", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 423: Invalid Exhibition Site - {"at": "2024-10-21T09:57:02.526317+01:00", "site": "None", "val": 2}
+2024-10-23 11:35 - WARNING - Invalid Message 424: Missing key: 'val - {"at": "2024-10-21T09:57:03.526690+01:00", "site": "0"}
+2024-10-23 11:35 - INFO - Message 425: {"at": "2024-10-21T09:57:04.527028+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 426: {"at": "2024-10-21T09:57:07.527475+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 427: {"at": "2024-10-21T09:57:10.528054+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 428: Rating must be between -1 and 4 - {"at": "2024-10-21T09:57:11.528442+01:00", "site": "1", "val": null}
+2024-10-23 11:35 - INFO - Message 429: {"at": "2024-10-21T09:57:14.528757+01:00", "site": "4", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 430: {"at": "2024-10-21T09:57:19.529122+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 431: {"at": "2024-10-21T09:57:25.529454+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 432: {"at": "2024-10-21T09:57:31.529763+01:00", "site": "0", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 433: {"at": "2024-10-21T09:57:36.530083+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 434: Invalid Exhibition Site - {"at": "2024-10-21T09:57:42.530455+01:00", "site": "12", "val": 3}
+2024-10-23 11:35 - INFO - Message 435: {"at": "2024-10-21T09:57:44.531839+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 436: {"at": "2024-10-21T09:57:48.532156+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 437: {"at": "2024-10-21T09:57:53.532660+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 438: {"at": "2024-10-21T09:57:59.532960+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 439: {"at": "2024-10-21T09:58:05.533250+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 440: Request must be 0 or 1 - {"at": "2024-10-21T09:58:10.533588+01:00", "site": "1", "val": -1, "type": 3}
+2024-10-23 11:35 - WARNING - Invalid Message 441: Request must be 0 or 1 - {"at": "2024-10-21T09:58:11.533937+01:00", "site": "1", "val": -1, "type": "ERR"}
+2024-10-23 11:35 - WARNING - Invalid Message 442: Missing key: 'site - {"at": "2024-10-21T09:58:16.534347+01:00", "val": 2}
+2024-10-23 11:35 - INFO - Message 443: {"at": "2024-10-21T09:58:19.534648+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 444: {"at": "2024-10-21T09:58:21.535573+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 445: {"at": "2024-10-21T09:58:27.535914+01:00", "site": "0", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 446: {"at": "2024-10-21T09:58:29.536232+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 447: {"at": "2024-10-21T09:58:32.536562+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 448: {"at": "2024-10-21T09:58:37.536984+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 449: {"at": "2024-10-21T09:58:38.537312+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 450: Invalid Exhibition Site - {"at": "2024-10-21T09:58:39.537605+01:00", "site": "12", "val": 3}
+2024-10-23 11:35 - INFO - Message 451: {"at": "2024-10-21T09:58:43.538058+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 452: {"at": "2024-10-21T09:58:48.538363+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 453: Request must be 0 or 1 - {"at": "2024-10-21T09:58:52.538765+01:00", "site": "4", "val": -1, "type": null}
+2024-10-23 11:35 - WARNING - Invalid Message 454: Invalid Exhibition Site - {"at": "2024-10-21T09:58:58.539069+01:00", "site": "6", "val": 1}
+2024-10-23 11:35 - INFO - Message 455: {"at": "2024-10-21T09:59:01.539464+01:00", "site": "1", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 456: {"at": "2024-10-21T09:59:04.539902+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 457: {"at": "2024-10-21T09:59:10.540321+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 458: {"at": "2024-10-21T09:59:15.540657+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 459: {"at": "2024-10-21T09:59:19.541124+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 460: {"at": "2024-10-21T09:59:25.541427+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 461: {"at": "2024-10-21T09:59:28.541800+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 462: {"at": "2024-10-21T09:59:32.542104+01:00", "site": "2", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 463: Invalid Exhibition Site - {"at": "2024-10-21T09:59:34.542492+01:00", "site": "12", "val": 2}
+2024-10-23 11:35 - INFO - Message 464: {"at": "2024-10-21T09:59:36.542825+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 465: {"at": "2024-10-21T09:59:37.543145+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 466: {"at": "2024-10-21T09:59:43.543563+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 467: Request must be 0 or 1 - {"at": "2024-10-21T09:59:46.543860+01:00", "site": "4", "val": -1, "type": 2}
+2024-10-23 11:35 - INFO - Message 468: {"at": "2024-10-21T09:59:47.544299+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 469: {"at": "2024-10-21T09:59:51.544633+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 470: {"at": "2024-10-21T09:59:55.545011+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 471: {"at": "2024-10-21T09:59:57.545337+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 472: {"at": "2024-10-21T10:00:02.545680+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 473: {"at": "2024-10-21T10:00:05.545978+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 474: {"at": "2024-10-21T10:00:08.546307+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 475: Rating must be between -1 and 4 - {"at": "2024-10-21T10:00:11.546757+01:00", "site": "2", "val": -2}
+2024-10-23 11:35 - INFO - Message 476: {"at": "2024-10-21T10:00:14.547067+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 477: {"at": "2024-10-21T10:00:17.547423+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 478: Invalid Exhibition Site - {"at": "2024-10-21T10:00:23.547782+01:00", "site": "12", "val": 2}
+2024-10-23 11:35 - INFO - Message 479: {"at": "2024-10-21T10:00:25.548196+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 480: {"at": "2024-10-21T10:00:30.548508+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 481: {"at": "2024-10-21T10:00:36.548920+01:00", "site": "2", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 482: {"at": "2024-10-21T10:00:37.549282+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 483: Invalid Exhibition Site - {"at": "2024-10-21T10:00:43.549580+01:00", "site": "11", "val": 0}
+2024-10-23 11:35 - INFO - Message 484: {"at": "2024-10-21T10:00:49.549947+01:00", "site": "1", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 485: Request must be 0 or 1 - {"at": "2024-10-21T10:00:55.550235+01:00", "site": "4", "val": -1, "type": -1}
+2024-10-23 11:35 - INFO - Message 486: {"at": "2024-10-21T10:01:00.550564+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 487: {"at": "2024-10-21T10:01:04.550946+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 488: {"at": "2024-10-21T10:01:10.551537+01:00", "site": "0", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 489: {"at": "2024-10-21T10:01:16.551855+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 490: {"at": "2024-10-21T10:01:22.552270+01:00", "site": "5", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 491: {"at": "2024-10-21T10:01:24.552909+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 492: {"at": "2024-10-21T10:01:30.553420+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 493: Invalid Exhibition Site - {"at": "2024-10-21T10:01:35.553960+01:00", "site": "6", "val": 2}
+2024-10-23 11:35 - INFO - Message 494: {"at": "2024-10-21T10:01:36.554296+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 495: {"at": "2024-10-21T10:01:37.554690+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 496: Rating must be between -1 and 4 - {"at": "2024-10-21T10:01:39.555014+01:00", "site": "4", "val": 9}
+2024-10-23 11:35 - INFO - Message 497: {"at": "2024-10-21T10:01:42.555451+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 498: {"at": "2024-10-21T10:01:43.555950+01:00", "site": "2", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 499: {"at": "2024-10-21T10:01:47.556467+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 500: Missing key: 'val - {"at": "2024-10-21T10:01:53.556779+01:00", "site": "1"}
+2024-10-23 11:35 - WARNING - Invalid Message 501: Request must be 0 or 1 - {"at": "2024-10-21T10:01:54.557048+01:00", "site": "4", "val": -1, "type": 3}
+2024-10-23 11:35 - INFO - Message 502: {"at": "2024-10-21T10:01:55.557614+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 503: {"at": "2024-10-21T10:02:00.557982+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 504: {"at": "2024-10-21T10:02:05.558374+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 505: {"at": "2024-10-21T10:02:10.558704+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 506: {"at": "2024-10-21T10:02:15.559082+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 507: {"at": "2024-10-21T10:02:18.559415+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 508: {"at": "2024-10-21T10:02:21.559753+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 509: {"at": "2024-10-21T10:02:25.560056+01:00", "site": "0", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 510: {"at": "2024-10-21T10:02:29.562762+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 511: {"at": "2024-10-21T10:02:31.563351+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 512: {"at": "2024-10-21T10:02:37.563772+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 513: {"at": "2024-10-21T10:02:41.564084+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 514: {"at": "2024-10-21T10:02:43.564388+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 515: {"at": "2024-10-21T10:02:48.564678+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 516: {"at": "2024-10-21T10:02:51.565039+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 517: {"at": "2024-10-21T10:02:54.565587+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 518: {"at": "2024-10-21T10:02:59.565938+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 519: {"at": "2024-10-21T10:03:03.566239+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 520: {"at": "2024-10-21T10:03:05.566657+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 521: {"at": "2024-10-21T10:03:10.567002+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 522: {"at": "2024-10-21T10:03:11.567375+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 523: {"at": "2024-10-21T10:03:12.567795+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 524: {"at": "2024-10-21T10:03:14.568181+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 525: {"at": "2024-10-21T10:03:15.568495+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 526: {"at": "2024-10-21T10:03:17.568858+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 527: Missing key: 'site - {"at": "2024-10-21T10:03:22.569166+01:00", "val": 3}
+2024-10-23 11:35 - INFO - Message 528: {"at": "2024-10-21T10:03:28.569689+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 529: {"at": "2024-10-21T10:03:32.570072+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 530: {"at": "2024-10-21T10:03:38.571519+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 531: {"at": "2024-10-21T10:03:43.571803+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 532: {"at": "2024-10-21T10:03:45.572187+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 533: {"at": "2024-10-21T10:03:47.572497+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 534: {"at": "2024-10-21T10:03:51.572891+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 535: {"at": "2024-10-21T10:03:53.573229+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 536: Request must be 0 or 1 - {"at": "2024-10-21T10:03:54.573545+01:00", "site": "5", "val": -1, "type": "INF"}
+2024-10-23 11:35 - INFO - Message 537: {"at": "2024-10-21T10:03:58.573888+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 538: {"at": "2024-10-21T10:04:00.574234+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 539: {"at": "2024-10-21T10:04:03.574585+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 540: {"at": "2024-10-21T10:04:04.575047+01:00", "site": "0", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 541: {"at": "2024-10-21T10:04:10.575408+01:00", "site": "1", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 542: {"at": "2024-10-21T10:04:12.575730+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 543: {"at": "2024-10-21T10:04:13.576184+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 544: {"at": "2024-10-21T10:04:18.576587+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 545: {"at": "2024-10-21T10:04:24.576896+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 546: {"at": "2024-10-21T10:04:25.577208+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 547: Invalid Exhibition Site - {"at": "2024-10-21T10:04:27.577520+01:00", "site": "7", "val": 3}
+2024-10-23 11:35 - INFO - Message 548: {"at": "2024-10-21T10:04:30.577865+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 549: {"at": "2024-10-21T10:04:32.578221+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 550: {"at": "2024-10-21T10:04:35.578657+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 551: {"at": "2024-10-21T10:04:38.579120+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 552: {"at": "2024-10-21T10:04:39.579458+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 553: Request must be 0 or 1 - {"at": "2024-10-21T10:04:42.579766+01:00", "site": "1", "val": -1, "type": null}
+2024-10-23 11:35 - INFO - Message 554: {"at": "2024-10-21T10:04:46.580252+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 555: {"at": "2024-10-21T10:04:50.580759+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 556: {"at": "2024-10-21T10:04:52.581092+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 557: Rating must be between -1 and 4 - {"at": "2024-10-21T10:04:54.581537+01:00", "site": "2", "val": "ERR"}
+2024-10-23 11:35 - INFO - Message 558: {"at": "2024-10-21T10:04:58.582375+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 559: {"at": "2024-10-21T10:05:03.582691+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 560: {"at": "2024-10-21T10:05:04.583033+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 561: {"at": "2024-10-21T10:05:05.583481+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 562: {"at": "2024-10-21T10:05:11.583829+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 563: {"at": "2024-10-21T10:05:12.584146+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 564: {"at": "2024-10-21T10:05:14.584698+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 565: {"at": "2024-10-21T10:05:17.585239+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 566: {"at": "2024-10-21T10:05:20.585579+01:00", "site": "0", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 567: {"at": "2024-10-21T10:05:23.585935+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 568: {"at": "2024-10-21T10:05:29.586231+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 569: {"at": "2024-10-21T10:05:35.586542+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 570: {"at": "2024-10-21T10:05:40.586858+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 571: {"at": "2024-10-21T10:05:42.587163+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 572: {"at": "2024-10-21T10:05:47.587528+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 573: {"at": "2024-10-21T10:05:53.587846+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 574: {"at": "2024-10-21T10:05:56.588265+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 575: {"at": "2024-10-21T10:06:01.588774+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 576: {"at": "2024-10-21T10:06:05.589097+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 577: {"at": "2024-10-21T10:06:06.590438+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 578: Invalid Exhibition Site - {"at": "2024-10-21T10:06:10.591165+01:00", "site": "ERR", "val": 1}
+2024-10-23 11:35 - WARNING - Invalid Message 579: Invalid Exhibition Site - {"at": "2024-10-21T10:06:11.591633+01:00", "site": "12", "val": 0}
+2024-10-23 11:35 - INFO - Message 580: {"at": "2024-10-21T10:06:12.592253+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 581: {"at": "2024-10-21T10:06:15.592578+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 582: {"at": "2024-10-21T10:06:18.593142+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 583: {"at": "2024-10-21T10:06:21.593564+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 584: {"at": "2024-10-21T10:06:22.594745+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 585: {"at": "2024-10-21T10:06:26.595600+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 586: {"at": "2024-10-21T10:06:31.595927+01:00", "site": "0", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 587: {"at": "2024-10-21T10:06:36.596220+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 588: {"at": "2024-10-21T10:06:38.596638+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 589: {"at": "2024-10-21T10:06:42.596946+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 590: {"at": "2024-10-21T10:06:43.597269+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 591: {"at": "2024-10-21T10:06:45.597649+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 592: {"at": "2024-10-21T10:06:49.597968+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 593: Request must be 0 or 1 - {"at": "2024-10-21T10:06:55.598314+01:00", "site": "2", "val": -1, "type": 4}
+2024-10-23 11:35 - INFO - Message 594: {"at": "2024-10-21T10:06:57.598681+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 595: {"at": "2024-10-21T10:06:59.599901+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 596: {"at": "2024-10-21T10:07:04.600352+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 597: {"at": "2024-10-21T10:07:09.600951+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 598: {"at": "2024-10-21T10:07:14.601913+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 599: {"at": "2024-10-21T10:07:20.602204+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 600: {"at": "2024-10-21T10:07:24.602747+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 601: {"at": "2024-10-21T10:07:28.603057+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 602: {"at": "2024-10-21T10:07:34.603414+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 603: {"at": "2024-10-21T10:07:37.603800+01:00", "site": "1", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 604: {"at": "2024-10-21T10:07:42.604193+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 605: {"at": "2024-10-21T10:07:43.604511+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 606: {"at": "2024-10-21T10:07:45.604910+01:00", "site": "1", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 607: {"at": "2024-10-21T10:07:51.605283+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 608: {"at": "2024-10-21T10:07:53.605591+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 609: {"at": "2024-10-21T10:07:56.605925+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 610: {"at": "2024-10-21T10:07:57.606221+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 611: Rating must be between -1 and 4 - {"at": "2024-10-21T10:07:58.606673+01:00", "site": "0", "val": "ERR"}
+2024-10-23 11:35 - INFO - Message 612: {"at": "2024-10-21T10:08:00.606989+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 613: {"at": "2024-10-21T10:08:01.607377+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 614: {"at": "2024-10-21T10:08:05.608005+01:00", "site": "4", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 615: {"at": "2024-10-21T10:08:09.608315+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 616: {"at": "2024-10-21T10:08:13.608629+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 617: {"at": "2024-10-21T10:08:14.608937+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 618: {"at": "2024-10-21T10:08:15.609267+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 619: {"at": "2024-10-21T10:08:19.609583+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 620: Request must be 0 or 1 - {"at": "2024-10-21T10:08:22.610464+01:00", "site": "4", "val": -1, "type": "ERR"}
+2024-10-23 11:35 - INFO - Message 621: {"at": "2024-10-21T10:08:25.610795+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 622: {"at": "2024-10-21T10:08:30.611129+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 623: {"at": "2024-10-21T10:08:33.611501+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 624: {"at": "2024-10-21T10:08:38.611820+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 625: {"at": "2024-10-21T10:08:44.612193+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 626: {"at": "2024-10-21T10:08:45.612610+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 627: {"at": "2024-10-21T10:08:47.613031+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 628: Invalid Exhibition Site - {"at": "2024-10-21T10:08:49.613343+01:00", "site": "None", "val": 0}
+2024-10-23 11:35 - INFO - Message 629: {"at": "2024-10-21T10:08:50.613738+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 630: {"at": "2024-10-21T10:08:51.614191+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 631: {"at": "2024-10-21T10:08:52.614503+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 632: {"at": "2024-10-21T10:08:53.614888+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 633: {"at": "2024-10-21T10:08:55.615162+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 634: {"at": "2024-10-21T10:08:57.615510+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 635: {"at": "2024-10-21T10:09:01.615823+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 636: {"at": "2024-10-21T10:09:06.616152+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 637: Missing key: 'val - {"at": "2024-10-21T10:09:11.616496+01:00", "site": "3"}
+2024-10-23 11:35 - INFO - Message 638: {"at": "2024-10-21T10:09:17.616842+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 639: {"at": "2024-10-21T10:09:20.617251+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 640: {"at": "2024-10-21T10:09:22.617595+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 641: Request must be 0 or 1 - {"at": "2024-10-21T10:09:23.618133+01:00", "site": "3", "val": -1, "type": 2}
+2024-10-23 11:35 - INFO - Message 642: {"at": "2024-10-21T10:09:27.618485+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 643: {"at": "2024-10-21T10:09:28.618875+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 644: Missing key: 'val - {"at": "2024-10-21T10:09:34.619557+01:00", "site": "3"}
+2024-10-23 11:35 - INFO - Message 645: {"at": "2024-10-21T10:09:40.619876+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 646: Missing key: 'val - {"at": "2024-10-21T10:09:42.620219+01:00", "site": "3"}
+2024-10-23 11:35 - INFO - Message 647: {"at": "2024-10-21T10:09:44.620536+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 648: {"at": "2024-10-21T10:09:50.621032+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 649: {"at": "2024-10-21T10:09:52.621576+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 650: {"at": "2024-10-21T10:09:58.621915+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 651: {"at": "2024-10-21T10:10:00.623040+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 652: Request must be 0 or 1 - {"at": "2024-10-21T10:10:01.623451+01:00", "site": "4", "val": -1, "type": null}
+2024-10-23 11:35 - INFO - Message 653: {"at": "2024-10-21T10:10:04.623769+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 654: Request must be 0 or 1 - {"at": "2024-10-21T10:10:07.624111+01:00", "site": "0", "val": -1, "type": 2}
+2024-10-23 11:35 - WARNING - Invalid Message 655: Rating must be between -1 and 4 - {"at": "2024-10-21T10:10:13.624419+01:00", "site": "3", "val": 9}
+2024-10-23 11:35 - WARNING - Invalid Message 656: Request must be 0 or 1 - {"at": "2024-10-21T10:10:17.624737+01:00", "site": "3", "val": -1, "type": "ERR"}
+2024-10-23 11:35 - INFO - Message 657: {"at": "2024-10-21T10:10:21.625034+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 658: {"at": "2024-10-21T10:10:25.625352+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 659: Invalid Exhibition Site - {"at": "2024-10-21T10:10:28.625942+01:00", "site": "10", "val": 4}
+2024-10-23 11:35 - INFO - Message 660: {"at": "2024-10-21T10:10:32.626325+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 661: {"at": "2024-10-21T10:10:38.626670+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 662: Missing key: 'at - {"site": "2", "val": 4}
+2024-10-23 11:35 - INFO - Message 663: {"at": "2024-10-21T10:10:43.629807+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 664: {"at": "2024-10-21T10:10:45.630122+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 665: {"at": "2024-10-21T10:10:50.630505+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 666: {"at": "2024-10-21T10:10:56.630962+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 667: {"at": "2024-10-21T10:11:02.631346+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 668: {"at": "2024-10-21T10:11:08.631662+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 669: {"at": "2024-10-21T10:11:11.631989+01:00", "site": "0", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 670: {"at": "2024-10-21T10:11:15.632305+01:00", "site": "5", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 671: Missing key: 'at - {"site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Message 672: {"at": "2024-10-21T10:11:22.633013+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 673: {"at": "2024-10-21T10:11:28.633302+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 674: {"at": "2024-10-21T10:11:31.633594+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 675: {"at": "2024-10-21T10:11:36.635487+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 676: {"at": "2024-10-21T10:11:38.635886+01:00", "site": "5", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 677: {"at": "2024-10-21T10:11:44.636225+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 678: {"at": "2024-10-21T10:11:47.636544+01:00", "site": "4", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 679: {"at": "2024-10-21T10:11:48.636867+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 680: {"at": "2024-10-21T10:11:53.637243+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 681: {"at": "2024-10-21T10:11:54.637562+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 682: {"at": "2024-10-21T10:11:55.637908+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 683: {"at": "2024-10-21T10:11:56.638211+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 684: {"at": "2024-10-21T10:12:00.638513+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 685: {"at": "2024-10-21T10:12:04.638826+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 686: {"at": "2024-10-21T10:12:10.641875+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 687: {"at": "2024-10-21T10:12:16.642412+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 688: {"at": "2024-10-21T10:12:17.642707+01:00", "site": "1", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 689: {"at": "2024-10-21T10:12:18.643004+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 690: {"at": "2024-10-21T10:12:24.643293+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 691: {"at": "2024-10-21T10:12:28.643689+01:00", "site": "0", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 692: {"at": "2024-10-21T10:12:33.644006+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 693: {"at": "2024-10-21T10:12:39.644325+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 694: {"at": "2024-10-21T10:12:41.644715+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 695: {"at": "2024-10-21T10:12:45.645192+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 696: Missing key: 'val - {"at": "2024-10-21T10:12:48.645534+01:00", "site": "5"}
+2024-10-23 11:35 - INFO - Message 697: {"at": "2024-10-21T10:12:51.646017+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 698: Invalid Exhibition Site - {"at": "2024-10-21T10:12:56.646347+01:00", "site": "11", "val": 3}
+2024-10-23 11:35 - INFO - Message 699: {"at": "2024-10-21T10:13:02.647012+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 700: {"at": "2024-10-21T10:13:08.647355+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 701: Invalid Exhibition Site - {"at": "2024-10-21T10:13:13.647754+01:00", "site": "INF", "val": 4}
+2024-10-23 11:35 - INFO - Message 702: {"at": "2024-10-21T10:13:17.648194+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 703: {"at": "2024-10-21T10:13:20.648506+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 704: {"at": "2024-10-21T10:13:21.648799+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 705: Request must be 0 or 1 - {"at": "2024-10-21T10:13:23.649138+01:00", "site": "2", "val": -1, "type": "ERR"}
+2024-10-23 11:35 - WARNING - Invalid Message 706: Request must be 0 or 1 - {"at": "2024-10-21T10:13:25.649519+01:00", "site": "4", "val": -1, "type": "ERR"}
+2024-10-23 11:35 - INFO - Message 707: {"at": "2024-10-21T10:13:27.649829+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 708: {"at": "2024-10-21T10:13:29.650143+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 709: {"at": "2024-10-21T10:13:33.650506+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 710: {"at": "2024-10-21T10:13:37.650839+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 711: {"at": "2024-10-21T10:13:42.651235+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 712: {"at": "2024-10-21T10:13:44.651724+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 713: Invalid Exhibition Site - {"at": "2024-10-21T10:13:45.652048+01:00", "site": "8", "val": 3}
+2024-10-23 11:35 - INFO - Message 714: {"at": "2024-10-21T10:13:49.652498+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 715: {"at": "2024-10-21T10:13:52.652860+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 716: {"at": "2024-10-21T10:13:53.653168+01:00", "site": "4", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 717: {"at": "2024-10-21T10:13:56.653484+01:00", "site": "5", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 718: {"at": "2024-10-21T10:14:01.653813+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 719: {"at": "2024-10-21T10:14:06.654130+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 720: {"at": "2024-10-21T10:14:08.654467+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 721: {"at": "2024-10-21T10:14:13.654806+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 722: Request must be 0 or 1 - {"at": "2024-10-21T10:14:16.655205+01:00", "site": "5", "val": -1, "type": -1}
+2024-10-23 11:35 - INFO - Message 723: {"at": "2024-10-21T10:14:21.655637+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 724: {"at": "2024-10-21T10:14:24.656013+01:00", "site": "4", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 725: {"at": "2024-10-21T10:14:25.656313+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 726: {"at": "2024-10-21T10:14:29.656626+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 727: {"at": "2024-10-21T10:14:33.656989+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 728: {"at": "2024-10-21T10:14:36.657353+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 729: {"at": "2024-10-21T10:14:37.657706+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 730: {"at": "2024-10-21T10:14:40.658420+01:00", "site": "2", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 731: {"at": "2024-10-21T10:14:42.658728+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 732: {"at": "2024-10-21T10:14:43.659055+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 733: {"at": "2024-10-21T10:14:46.659550+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 734: {"at": "2024-10-21T10:14:52.660084+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 735: {"at": "2024-10-21T10:14:58.660475+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 736: {"at": "2024-10-21T10:15:00.660804+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 737: {"at": "2024-10-21T10:15:05.661271+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 738: Missing key: 'val - {"at": "2024-10-21T10:15:08.661621+01:00", "site": "3"}
+2024-10-23 11:35 - INFO - Message 739: {"at": "2024-10-21T10:15:13.661978+01:00", "site": "0", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 740: {"at": "2024-10-21T10:15:14.662419+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 741: {"at": "2024-10-21T10:15:17.662730+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 742: Missing key: 'at - {"site": "0", "val": 0}
+2024-10-23 11:35 - INFO - Message 743: {"at": "2024-10-21T10:15:28.664170+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 744: {"at": "2024-10-21T10:15:29.664553+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 745: {"at": "2024-10-21T10:15:34.664929+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 746: {"at": "2024-10-21T10:15:39.665327+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 747: {"at": "2024-10-21T10:15:44.665687+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 748: {"at": "2024-10-21T10:15:47.666491+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 749: {"at": "2024-10-21T10:15:48.666870+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 750: {"at": "2024-10-21T10:15:52.667291+01:00", "site": "3", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 751: {"at": "2024-10-21T10:15:58.667677+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 752: Missing key: 'site - {"at": "2024-10-21T10:16:00.668004+01:00", "val": 2}
+2024-10-23 11:35 - INFO - Message 753: {"at": "2024-10-21T10:16:06.668434+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 754: {"at": "2024-10-21T10:16:07.668755+01:00", "site": "3", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 755: {"at": "2024-10-21T10:16:11.669305+01:00", "site": "3", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 756: {"at": "2024-10-21T10:16:15.669766+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 757: {"at": "2024-10-21T10:16:16.670199+01:00", "site": "4", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 758: Invalid Exhibition Site - {"at": "2024-10-21T10:16:21.670806+01:00", "site": "10", "val": 0}
+2024-10-23 11:35 - INFO - Message 759: {"at": "2024-10-21T10:16:24.671164+01:00", "site": "5", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 760: {"at": "2024-10-21T10:16:25.671547+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 761: {"at": "2024-10-21T10:16:30.671961+01:00", "site": "2", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 762: {"at": "2024-10-21T10:16:32.672257+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 763: {"at": "2024-10-21T10:16:37.672553+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 764: {"at": "2024-10-21T10:16:42.672907+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 765: Invalid Exhibition Site - {"at": "2024-10-21T10:16:47.673474+01:00", "site": "10", "val": 2}
+2024-10-23 11:35 - INFO - Message 766: {"at": "2024-10-21T10:16:49.673899+01:00", "site": "2", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 767: Invalid Exhibition Site - {"at": "2024-10-21T10:16:54.674751+01:00", "site": "10", "val": 2}
+2024-10-23 11:35 - INFO - Message 768: {"at": "2024-10-21T10:16:57.675176+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 769: {"at": "2024-10-21T10:17:03.675508+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 770: {"at": "2024-10-21T10:17:06.675811+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 771: Invalid Exhibition Site - {"at": "2024-10-21T10:17:11.676139+01:00", "site": "6", "val": 0}
+2024-10-23 11:35 - INFO - Message 772: {"at": "2024-10-21T10:17:15.676536+01:00", "site": "1", "val": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 773: {"at": "2024-10-21T10:17:16.677125+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 774: {"at": "2024-10-21T10:17:22.677772+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 775: {"at": "2024-10-21T10:17:25.678082+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 776: {"at": "2024-10-21T10:17:28.678443+01:00", "site": "1", "val": 3}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 777: {"at": "2024-10-21T10:17:30.679089+01:00", "site": "3", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 778: {"at": "2024-10-21T10:17:35.679440+01:00", "site": "3", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 779: {"at": "2024-10-21T10:17:36.679883+01:00", "site": "4", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 780: Rating must be between -1 and 4 - {"at": "2024-10-21T10:17:41.680518+01:00", "site": "2", "val": 7}
+2024-10-23 11:35 - INFO - Message 781: {"at": "2024-10-21T10:17:42.680830+01:00", "site": "4", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 782: {"at": "2024-10-21T10:17:45.681370+01:00", "site": "0", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 783: {"at": "2024-10-21T10:17:48.681747+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 784: {"at": "2024-10-21T10:17:54.682087+01:00", "site": "5", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 785: {"at": "2024-10-21T10:17:59.682463+01:00", "site": "1", "val": 1}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 786: {"at": "2024-10-21T10:18:02.683050+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 787: {"at": "2024-10-21T10:18:05.683386+01:00", "site": "2", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 788: {"at": "2024-10-21T10:18:06.683732+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 789: {"at": "2024-10-21T10:18:07.684103+01:00", "site": "5", "val": 4}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - WARNING - Invalid Message 790: Request must be 0 or 1 - {"at": "2024-10-21T10:18:08.684531+01:00", "site": "1", "val": -1, "type": "INF"}
+2024-10-23 11:35 - WARNING - Invalid Message 791: Rating must be between -1 and 4 - {"at": "2024-10-21T10:18:13.684932+01:00", "site": "4", "val": 8}
+2024-10-23 11:35 - INFO - Message 792: {"at": "2024-10-21T10:18:15.685236+01:00", "site": "1", "val": 2}
+2024-10-23 11:35 - INFO - Inserted data
+2024-10-23 11:35 - INFO - Message 793: {"at": "2024-10-21T10:18:19.685602+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 794: {"at": "2024-10-21T10:18:20.685948+01:00", "site": "5", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 795: {"at": "2024-10-21T10:18:25.686319+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 796: {"at": "2024-10-21T10:18:27.686618+01:00", "site": "1", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 797: Request must be 0 or 1 - {"at": "2024-10-21T10:18:28.686939+01:00", "site": "3", "val": -1, "type": null}
+2024-10-23 11:36 - WARNING - Invalid Message 798: Rating must be between -1 and 4 - {"at": "2024-10-21T10:18:29.687251+01:00", "site": "5", "val": 7}
+2024-10-23 11:36 - INFO - Message 799: {"at": "2024-10-21T10:18:35.687780+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 800: {"at": "2024-10-21T10:18:41.688201+01:00", "site": "5", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 801: {"at": "2024-10-21T10:18:44.688795+01:00", "site": "3", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 802: {"at": "2024-10-21T10:18:46.689157+01:00", "site": "2", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 803: {"at": "2024-10-21T10:18:51.689469+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 804: Rating must be between -1 and 4 - {"at": "2024-10-21T10:18:52.689817+01:00", "site": "5", "val": 5}
+2024-10-23 11:36 - INFO - Message 805: {"at": "2024-10-21T10:18:54.690264+01:00", "site": "5", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 806: {"at": "2024-10-21T10:18:59.690883+01:00", "site": "0", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 807: {"at": "2024-10-21T10:19:04.691604+01:00", "site": "1", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 808: {"at": "2024-10-21T10:19:08.691968+01:00", "site": "3", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 809: Invalid Exhibition Site - {"at": "2024-10-21T10:19:14.692333+01:00", "site": "ERR", "val": 3}
+2024-10-23 11:36 - INFO - Message 810: {"at": "2024-10-21T10:19:16.692682+01:00", "site": "3", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 811: {"at": "2024-10-21T10:19:17.692996+01:00", "site": "2", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 812: {"at": "2024-10-21T10:19:18.693287+01:00", "site": "3", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 813: {"at": "2024-10-21T10:19:19.693611+01:00", "site": "5", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 814: {"at": "2024-10-21T10:19:25.694060+01:00", "site": "1", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 815: {"at": "2024-10-21T10:19:27.694355+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 816: Missing key: 'site - {"at": "2024-10-21T10:19:28.694756+01:00", "val": 4}
+2024-10-23 11:36 - INFO - Message 817: {"at": "2024-10-21T10:19:32.695073+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 818: {"at": "2024-10-21T10:19:37.695446+01:00", "site": "5", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 819: {"at": "2024-10-21T10:19:41.695762+01:00", "site": "3", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 820: {"at": "2024-10-21T10:19:46.696051+01:00", "site": "2", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 821: {"at": "2024-10-21T10:19:50.696584+01:00", "site": "1", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 822: {"at": "2024-10-21T10:19:54.697111+01:00", "site": "0", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 823: Request must be 0 or 1 - {"at": "2024-10-21T10:19:59.697427+01:00", "site": "4", "val": -1, "type": -1}
+2024-10-23 11:36 - WARNING - Invalid Message 824: Request must be 0 or 1 - {"at": "2024-10-21T10:20:04.698017+01:00", "site": "3", "val": -1, "type": -1}
+2024-10-23 11:36 - WARNING - Invalid Message 825: Missing key: 'val - {"at": "2024-10-21T10:20:06.698343+01:00", "site": "4"}
+2024-10-23 11:36 - INFO - Message 826: {"at": "2024-10-21T10:20:09.698643+01:00", "site": "2", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 827: {"at": "2024-10-21T10:20:11.699021+01:00", "site": "2", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 828: {"at": "2024-10-21T10:20:17.699411+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 829: {"at": "2024-10-21T10:20:23.699723+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 830: {"at": "2024-10-21T10:20:27.700379+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 831: {"at": "2024-10-21T10:20:33.700707+01:00", "site": "3", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 832: {"at": "2024-10-21T10:20:35.701157+01:00", "site": "0", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 833: {"at": "2024-10-21T10:20:41.701548+01:00", "site": "5", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 834: Invalid Exhibition Site - {"at": "2024-10-21T10:20:46.701946+01:00", "site": "10", "val": 3}
+2024-10-23 11:36 - INFO - Message 835: {"at": "2024-10-21T10:20:48.702290+01:00", "site": "0", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 836: Request must be 0 or 1 - {"at": "2024-10-21T10:20:54.702693+01:00", "site": "0", "val": -1, "type": "ERR"}
+2024-10-23 11:36 - WARNING - Invalid Message 837: Rating must be between -1 and 4 - {"at": "2024-10-21T10:20:59.703130+01:00", "site": "5", "val": 5}
+2024-10-23 11:36 - INFO - Message 838: {"at": "2024-10-21T10:21:03.703481+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 839: {"at": "2024-10-21T10:21:07.705538+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 840: {"at": "2024-10-21T10:21:10.705867+01:00", "site": "4", "val": -1, "type": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 841: {"at": "2024-10-21T10:21:16.706228+01:00", "site": "1", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 842: {"at": "2024-10-21T10:21:19.706537+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 843: {"at": "2024-10-21T10:21:25.706827+01:00", "site": "0", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 844: {"at": "2024-10-21T10:21:29.707129+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 845: {"at": "2024-10-21T10:21:35.707449+01:00", "site": "3", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 846: {"at": "2024-10-21T10:21:41.707759+01:00", "site": "2", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 847: {"at": "2024-10-21T10:21:46.710012+01:00", "site": "1", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 848: {"at": "2024-10-21T10:21:47.710576+01:00", "site": "3", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 849: {"at": "2024-10-21T10:21:49.710944+01:00", "site": "1", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 850: {"at": "2024-10-21T10:21:50.711747+01:00", "site": "5", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 851: {"at": "2024-10-21T10:21:53.712109+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 852: Request must be 0 or 1 - {"at": "2024-10-21T10:21:58.712423+01:00", "site": "5", "val": -1, "type": "INF"}
+2024-10-23 11:36 - INFO - Message 853: {"at": "2024-10-21T10:22:01.712764+01:00", "site": "1", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 854: {"at": "2024-10-21T10:22:05.713098+01:00", "site": "1", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 855: {"at": "2024-10-21T10:22:06.713572+01:00", "site": "1", "val": -1, "type": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 856: {"at": "2024-10-21T10:22:09.713909+01:00", "site": "3", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 857: Rating must be between -1 and 4 - {"at": "2024-10-21T10:22:13.714214+01:00", "site": "4", "val": -3}
+2024-10-23 11:36 - INFO - Message 858: {"at": "2024-10-21T10:22:19.714513+01:00", "site": "1", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 859: {"at": "2024-10-21T10:22:23.714843+01:00", "site": "3", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 860: {"at": "2024-10-21T10:22:28.715159+01:00", "site": "1", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 861: {"at": "2024-10-21T10:22:29.715527+01:00", "site": "5", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 862: {"at": "2024-10-21T10:22:31.715833+01:00", "site": "0", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 863: {"at": "2024-10-21T10:22:32.716384+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 864: {"at": "2024-10-21T10:22:38.716864+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 865: Invalid Exhibition Site - {"at": "2024-10-21T10:22:39.717198+01:00", "site": "7", "val": 2}
+2024-10-23 11:36 - INFO - Message 866: {"at": "2024-10-21T10:22:43.717707+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 867: {"at": "2024-10-21T10:22:48.718028+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 868: {"at": "2024-10-21T10:22:51.718326+01:00", "site": "5", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 869: {"at": "2024-10-21T10:22:54.718632+01:00", "site": "3", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 870: {"at": "2024-10-21T10:23:00.719047+01:00", "site": "5", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 871: {"at": "2024-10-21T10:23:02.719499+01:00", "site": "0", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 872: Invalid Exhibition Site - {"at": "2024-10-21T10:23:04.719884+01:00", "site": "None", "val": 0}
+2024-10-23 11:36 - WARNING - Invalid Message 873: Rating must be between -1 and 4 - {"at": "2024-10-21T10:23:07.720287+01:00", "site": "1", "val": 8}
+2024-10-23 11:36 - INFO - Message 874: {"at": "2024-10-21T10:23:09.721271+01:00", "site": "3", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 875: {"at": "2024-10-21T10:23:10.721896+01:00", "site": "2", "val": -1, "type": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 876: {"at": "2024-10-21T10:23:11.722196+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 877: {"at": "2024-10-21T10:23:14.722550+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 878: {"at": "2024-10-21T10:23:19.722879+01:00", "site": "3", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 879: {"at": "2024-10-21T10:23:22.723258+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 880: {"at": "2024-10-21T10:23:23.723844+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 881: {"at": "2024-10-21T10:23:28.724159+01:00", "site": "0", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 882: {"at": "2024-10-21T10:23:29.724521+01:00", "site": "4", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 883: {"at": "2024-10-21T10:23:32.724837+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 884: {"at": "2024-10-21T10:23:33.725148+01:00", "site": "1", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 885: {"at": "2024-10-21T10:23:37.725453+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 886: Invalid Exhibition Site - {"at": "2024-10-21T10:23:38.725815+01:00", "site": "6", "val": 3}
+2024-10-23 11:36 - INFO - Message 887: {"at": "2024-10-21T10:23:40.726271+01:00", "site": "3", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 888: {"at": "2024-10-21T10:23:45.726581+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 889: {"at": "2024-10-21T10:23:51.726908+01:00", "site": "5", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 890: {"at": "2024-10-21T10:23:54.727275+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 891: {"at": "2024-10-21T10:23:59.727711+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 892: {"at": "2024-10-21T10:24:00.728097+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 893: {"at": "2024-10-21T10:24:03.728449+01:00", "site": "5", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 894: {"at": "2024-10-21T10:24:08.728864+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 895: {"at": "2024-10-21T10:24:09.729211+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 896: {"at": "2024-10-21T10:24:15.729509+01:00", "site": "3", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 897: {"at": "2024-10-21T10:24:20.729824+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 898: {"at": "2024-10-21T10:24:23.730106+01:00", "site": "0", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 899: {"at": "2024-10-21T10:24:26.730399+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 900: {"at": "2024-10-21T10:24:30.730692+01:00", "site": "5", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 901: {"at": "2024-10-21T10:24:33.730999+01:00", "site": "0", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 902: {"at": "2024-10-21T10:24:37.731379+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 903: {"at": "2024-10-21T10:24:43.731847+01:00", "site": "3", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 904: {"at": "2024-10-21T10:24:46.732211+01:00", "site": "1", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 905: {"at": "2024-10-21T10:24:52.732585+01:00", "site": "2", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 906: {"at": "2024-10-21T10:24:54.733022+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 907: {"at": "2024-10-21T10:24:57.733384+01:00", "site": "4", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 908: {"at": "2024-10-21T10:25:00.733735+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 909: {"at": "2024-10-21T10:25:02.734050+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 910: {"at": "2024-10-21T10:25:08.734376+01:00", "site": "5", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 911: {"at": "2024-10-21T10:25:12.734791+01:00", "site": "3", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 912: {"at": "2024-10-21T10:25:18.735090+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 913: {"at": "2024-10-21T10:25:20.735462+01:00", "site": "4", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 914: {"at": "2024-10-21T10:25:26.735789+01:00", "site": "1", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 915: {"at": "2024-10-21T10:25:31.736152+01:00", "site": "2", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 916: Missing key: 'site - {"at": "2024-10-21T10:25:33.736481+01:00", "val": 4}
+2024-10-23 11:36 - INFO - Message 917: {"at": "2024-10-21T10:25:38.736797+01:00", "site": "4", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 918: {"at": "2024-10-21T10:25:41.737339+01:00", "site": "1", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 919: Rating must be between -1 and 4 - {"at": "2024-10-21T10:25:47.737710+01:00", "site": "1", "val": 5}
+2024-10-23 11:36 - WARNING - Invalid Message 920: Missing key: 'val - {"at": "2024-10-21T10:25:49.738004+01:00", "site": "5", "type": 0}
+2024-10-23 11:36 - INFO - Message 921: {"at": "2024-10-21T10:25:51.739598+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 922: {"at": "2024-10-21T10:25:57.739923+01:00", "site": "3", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 923: {"at": "2024-10-21T10:26:00.740317+01:00", "site": "3", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 924: {"at": "2024-10-21T10:26:05.740629+01:00", "site": "2", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 925: {"at": "2024-10-21T10:26:08.740934+01:00", "site": "2", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 926: {"at": "2024-10-21T10:26:10.741234+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 927: {"at": "2024-10-21T10:26:12.741539+01:00", "site": "2", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 928: {"at": "2024-10-21T10:26:14.741973+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 929: {"at": "2024-10-21T10:26:19.742373+01:00", "site": "4", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 930: {"at": "2024-10-21T10:26:23.742661+01:00", "site": "2", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 931: {"at": "2024-10-21T10:26:24.743128+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 932: {"at": "2024-10-21T10:26:29.743481+01:00", "site": "3", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 933: Missing key: 'at - {"site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Message 934: {"at": "2024-10-21T10:26:36.744097+01:00", "site": "4", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 935: {"at": "2024-10-21T10:26:41.744409+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 936: {"at": "2024-10-21T10:26:44.745381+01:00", "site": "1", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 937: Rating must be between -1 and 4 - {"at": "2024-10-21T10:26:50.745818+01:00", "site": "5", "val": "ERR"}
+2024-10-23 11:36 - INFO - Message 938: {"at": "2024-10-21T10:26:52.746228+01:00", "site": "2", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 939: {"at": "2024-10-21T10:26:58.746517+01:00", "site": "4", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 940: {"at": "2024-10-21T10:27:00.746834+01:00", "site": "3", "val": -1, "type": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 941: {"at": "2024-10-21T10:27:03.747168+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 942: Request must be 0 or 1 - {"at": "2024-10-21T10:27:08.747499+01:00", "site": "3", "val": -1, "type": 4}
+2024-10-23 11:36 - INFO - Message 943: {"at": "2024-10-21T10:27:12.748454+01:00", "site": "3", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 944: Invalid Exhibition Site - {"at": "2024-10-21T10:27:17.748744+01:00", "site": "6", "val": 2}
+2024-10-23 11:36 - INFO - Message 945: {"at": "2024-10-21T10:27:23.749093+01:00", "site": "2", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 946: {"at": "2024-10-21T10:27:26.749593+01:00", "site": "1", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 947: {"at": "2024-10-21T10:27:28.749973+01:00", "site": "2", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 948: Invalid Exhibition Site - {"at": "2024-10-21T10:27:29.750311+01:00", "site": "ERR", "val": 4}
+2024-10-23 11:36 - INFO - Message 949: {"at": "2024-10-21T10:27:32.750940+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 950: {"at": "2024-10-21T10:27:38.751238+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 951: {"at": "2024-10-21T10:27:43.751638+01:00", "site": "5", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 952: {"at": "2024-10-21T10:27:44.752098+01:00", "site": "2", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 953: {"at": "2024-10-21T10:27:45.752425+01:00", "site": "3", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 954: {"at": "2024-10-21T10:27:51.752847+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 955: Missing key: 'at - {"site": "5", "val": 3}
+2024-10-23 11:36 - WARNING - Invalid Message 956: Rating must be between -1 and 4 - {"at": "2024-10-21T10:27:59.753786+01:00", "site": "5", "val": null}
+2024-10-23 11:36 - WARNING - Invalid Message 957: Missing key: 'at - {"site": "5", "val": 4}
+2024-10-23 11:36 - WARNING - Invalid Message 958: Missing key: 'site - {"at": "2024-10-21T10:28:04.754523+01:00", "val": 2}
+2024-10-23 11:36 - INFO - Message 959: {"at": "2024-10-21T10:28:09.755017+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 960: {"at": "2024-10-21T10:28:15.756355+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 961: Rating must be between -1 and 4 - {"at": "2024-10-21T10:28:19.757050+01:00", "site": "4", "val": 9}
+2024-10-23 11:36 - INFO - Message 962: {"at": "2024-10-21T10:28:24.757510+01:00", "site": "5", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 963: {"at": "2024-10-21T10:28:30.758061+01:00", "site": "2", "val": -1, "type": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 964: {"at": "2024-10-21T10:28:35.758391+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 965: {"at": "2024-10-21T10:28:37.758714+01:00", "site": "0", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 966: {"at": "2024-10-21T10:28:40.759075+01:00", "site": "1", "val": -1, "type": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 967: {"at": "2024-10-21T10:28:44.760098+01:00", "site": "4", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 968: {"at": "2024-10-21T10:28:46.760387+01:00", "site": "5", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 969: {"at": "2024-10-21T10:28:49.760793+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 970: {"at": "2024-10-21T10:28:50.761263+01:00", "site": "2", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 971: {"at": "2024-10-21T10:28:54.761608+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 972: {"at": "2024-10-21T10:28:59.761985+01:00", "site": "1", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 973: {"at": "2024-10-21T10:29:03.762493+01:00", "site": "5", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 974: {"at": "2024-10-21T10:29:09.762896+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 975: {"at": "2024-10-21T10:29:14.763223+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 976: Missing key: 'site - {"at": "2024-10-21T10:29:17.763546+01:00", "val": 2}
+2024-10-23 11:36 - INFO - Message 977: {"at": "2024-10-21T10:29:18.763922+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 978: {"at": "2024-10-21T10:29:22.764282+01:00", "site": "3", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 979: {"at": "2024-10-21T10:29:23.764659+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 980: Request must be 0 or 1 - {"at": "2024-10-21T10:29:26.765000+01:00", "site": "5", "val": -1, "type": "ERR"}
+2024-10-23 11:36 - WARNING - Invalid Message 981: Missing key: 'val - {"at": "2024-10-21T10:29:31.765458+01:00", "site": "3"}
+2024-10-23 11:36 - INFO - Message 982: {"at": "2024-10-21T10:29:33.765786+01:00", "site": "1", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 983: {"at": "2024-10-21T10:29:36.766296+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 984: {"at": "2024-10-21T10:29:40.766657+01:00", "site": "5", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 985: {"at": "2024-10-21T10:29:42.766974+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 986: {"at": "2024-10-21T10:29:43.767278+01:00", "site": "1", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 987: {"at": "2024-10-21T10:29:47.767842+01:00", "site": "1", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 988: {"at": "2024-10-21T10:29:53.768203+01:00", "site": "4", "val": -1, "type": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 989: {"at": "2024-10-21T10:29:59.768779+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 990: {"at": "2024-10-21T10:30:05.769210+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 991: Invalid Exhibition Site - {"at": "2024-10-21T10:30:06.769534+01:00", "site": "8", "val": 2}
+2024-10-23 11:36 - INFO - Message 992: {"at": "2024-10-21T10:30:10.769896+01:00", "site": "2", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 993: {"at": "2024-10-21T10:30:12.770245+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 994: Invalid Exhibition Site - {"at": "2024-10-21T10:30:17.770644+01:00", "site": "9", "val": 1}
+2024-10-23 11:36 - WARNING - Invalid Message 995: Rating must be between -1 and 4 - {"at": "2024-10-21T10:30:18.770983+01:00", "site": "1", "val": 9}
+2024-10-23 11:36 - INFO - Message 996: {"at": "2024-10-21T10:30:23.771801+01:00", "site": "4", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 997: {"at": "2024-10-21T10:30:24.772300+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 998: {"at": "2024-10-21T10:30:27.772626+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 999: {"at": "2024-10-21T10:30:28.772933+01:00", "site": "3", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 1000: Request must be 0 or 1 - {"at": "2024-10-21T10:30:29.773261+01:00", "site": "4", "val": -1, "type": 3}
+2024-10-23 11:36 - WARNING - Invalid Message 1001: Invalid Exhibition Site - {"at": "2024-10-21T10:30:34.773616+01:00", "site": "11", "val": 3}
+2024-10-23 11:36 - INFO - Message 1002: {"at": "2024-10-21T10:30:38.774142+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 1003: Request must be 0 or 1 - {"at": "2024-10-21T10:30:44.774491+01:00", "site": "5", "val": -1, "type": 3}
+2024-10-23 11:36 - INFO - Message 1004: {"at": "2024-10-21T10:30:49.774816+01:00", "site": "3", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 1005: Invalid Exhibition Site - {"at": "2024-10-21T10:30:55.775149+01:00", "site": "9", "val": 4}
+2024-10-23 11:36 - INFO - Message 1006: {"at": "2024-10-21T10:30:58.775658+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1007: {"at": "2024-10-21T10:31:01.775972+01:00", "site": "2", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1008: {"at": "2024-10-21T10:31:06.776282+01:00", "site": "4", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1009: {"at": "2024-10-21T10:31:12.776548+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1010: {"at": "2024-10-21T10:31:17.776849+01:00", "site": "0", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1011: {"at": "2024-10-21T10:31:23.777235+01:00", "site": "2", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1012: {"at": "2024-10-21T10:31:27.777561+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 1013: Request must be 0 or 1 - {"at": "2024-10-21T10:31:33.778082+01:00", "site": "5", "val": -1, "type": "INF"}
+2024-10-23 11:36 - INFO - Message 1014: {"at": "2024-10-21T10:31:38.778392+01:00", "site": "2", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1015: {"at": "2024-10-21T10:31:43.778768+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1016: {"at": "2024-10-21T10:31:44.779454+01:00", "site": "5", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 1017: Missing key: 'val - {"at": "2024-10-21T10:31:47.779797+01:00", "site": "3"}
+2024-10-23 11:36 - WARNING - Invalid Message 1018: Request must be 0 or 1 - {"at": "2024-10-21T10:31:53.780145+01:00", "site": "5", "val": -1, "type": 2}
+2024-10-23 11:36 - WARNING - Invalid Message 1019: Missing key: 'val - {"at": "2024-10-21T10:31:56.780561+01:00", "site": "4"}
+2024-10-23 11:36 - INFO - Message 1020: {"at": "2024-10-21T10:32:02.780877+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1021: {"at": "2024-10-21T10:32:08.781260+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1022: {"at": "2024-10-21T10:32:11.781657+01:00", "site": "3", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1023: {"at": "2024-10-21T10:32:15.782062+01:00", "site": "4", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1024: {"at": "2024-10-21T10:32:19.782390+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1025: {"at": "2024-10-21T10:32:21.782713+01:00", "site": "3", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1026: {"at": "2024-10-21T10:32:26.783042+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1027: {"at": "2024-10-21T10:32:32.783371+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1028: {"at": "2024-10-21T10:32:33.783691+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1029: {"at": "2024-10-21T10:32:38.784001+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1030: {"at": "2024-10-21T10:32:40.784329+01:00", "site": "1", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1031: {"at": "2024-10-21T10:32:45.785013+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1032: {"at": "2024-10-21T10:32:48.785361+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1033: {"at": "2024-10-21T10:32:53.785746+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1034: {"at": "2024-10-21T10:32:54.786053+01:00", "site": "3", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1035: {"at": "2024-10-21T10:32:55.786594+01:00", "site": "4", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - WARNING - Invalid Message 1036: Rating must be between -1 and 4 - {"at": "2024-10-21T10:33:00.786910+01:00", "site": "4", "val": -3}
+2024-10-23 11:36 - INFO - Message 1037: {"at": "2024-10-21T10:33:01.787256+01:00", "site": "1", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1038: {"at": "2024-10-21T10:33:03.787603+01:00", "site": "5", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1039: {"at": "2024-10-21T10:33:08.787936+01:00", "site": "1", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1040: {"at": "2024-10-21T10:33:14.788274+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1041: {"at": "2024-10-21T10:33:15.788638+01:00", "site": "1", "val": 3}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1042: {"at": "2024-10-21T10:33:17.788961+01:00", "site": "5", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1043: {"at": "2024-10-21T10:33:19.789305+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1044: {"at": "2024-10-21T10:33:21.789716+01:00", "site": "2", "val": 1}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1045: {"at": "2024-10-21T10:33:27.790375+01:00", "site": "4", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1046: {"at": "2024-10-21T10:33:28.790679+01:00", "site": "5", "val": 4}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1047: {"at": "2024-10-21T10:33:30.791072+01:00", "site": "0", "val": 0}
+2024-10-23 11:36 - INFO - Inserted data
+2024-10-23 11:36 - INFO - Message 1048: {"at": "2024-10-21T10:33:36.791605+01:00", "site": "0", "val": 2}
+2024-10-23 11:36 - INFO - Closing Consumer
+2024-10-23 11:36 - INFO - Closed Consumer
